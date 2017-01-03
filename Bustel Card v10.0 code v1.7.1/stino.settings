@@ -1,0 +1,8 @@
+{
+    "arduino_folder": "C:\\Program Files (x86)\\Arduino", 
+    "full_compilation": true, 
+    "platform": 1, 
+    "platform_name": "Arduino AVR Boards", 
+    "show_compilation_output": true, 
+    "show_upload_output": true
+}
