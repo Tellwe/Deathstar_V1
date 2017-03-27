@@ -139,6 +139,10 @@ void main()
 		{
 			Mode_2();
 		}
+		if(OperationMode() == 3)
+		{
+			Mode_3();
+		}
 		//Transmittsequence
 		if(OperationMode() == 4)
 		{
@@ -403,7 +407,12 @@ Not used
 *******************************************************/
 void Mode_3()
 {
-
+	LightWithSensController();
+	if(bDark && iPIR && intBlinkCycle == 0)
+	{
+		intBlinkCycle = 1;
+		intBlinkCounter = 0;
+	}
 }
 /****************Mode description**********************
 Transmitter node 1
