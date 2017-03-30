@@ -222,14 +222,14 @@ void TransmittedDataHandler()
 	{
 		intBlinkCycle = 1;
 		intBlinkCounter = 0;
-		DelayDs(100);			//Delay between succesfull recived commands
+		DelayDs(1);			//Delay between succesfull recived commands
 		TransmittString("N1BLINKSTARTED");
 	}
 	else if((strstr(TransmittedString, "N2BLINK")) && (OperationMode() == 7))				//Requested node == 2
 	{
 		intBlinkCycle = 1;
 		intBlinkCounter = 0;
-		DelayDs(100);			//Delay between succesfull recived commands
+		DelayDs(1);			//Delay between succesfull recived commands
 		TransmittString("N2BLINKSTARTED");
 	}
 	else if((strstr(TransmittedString, "N1BLINKSTARTED")) && (OperationMode() == 4))			

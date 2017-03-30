@@ -66,7 +66,7 @@ dataBANK0 BANK0 1 6F 6F 1 1
 dataBANK1 BANK1 1 D7 D7 2 1
 clrtext CODE 0 B77 B77 8 2
 bssCOMMON COMMON 1 7C 7C 2 1
-$C:\Users\tellw\AppData\Local\Temp\sfes.obj
+$C:\Users\tellw\AppData\Local\Temp\sffs.obj
 reset_vec CODE 0 0 0 3 2
 end_init CODE 0 12 12 3 2
 config CONFIG 0 2007 2007 1 2
@@ -124,40 +124,40 @@ STRING 1000-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-15 cinit CODE >684:C:\Users\tellw\AppData\Local\Temp\sfes.
-15 cinit CODE >687:C:\Users\tellw\AppData\Local\Temp\sfes.
-15 cinit CODE >766:C:\Users\tellw\AppData\Local\Temp\sfes.
-16 cinit CODE >767:C:\Users\tellw\AppData\Local\Temp\sfes.
-17 cinit CODE >768:C:\Users\tellw\AppData\Local\Temp\sfes.
-1C cinit CODE >769:C:\Users\tellw\AppData\Local\Temp\sfes.
-1D cinit CODE >770:C:\Users\tellw\AppData\Local\Temp\sfes.
-22 cinit CODE >771:C:\Users\tellw\AppData\Local\Temp\sfes.
-23 cinit CODE >775:C:\Users\tellw\AppData\Local\Temp\sfes.
-24 cinit CODE >776:C:\Users\tellw\AppData\Local\Temp\sfes.
-25 cinit CODE >777:C:\Users\tellw\AppData\Local\Temp\sfes.
-2A cinit CODE >778:C:\Users\tellw\AppData\Local\Temp\sfes.
-2B cinit CODE >797:C:\Users\tellw\AppData\Local\Temp\sfes.
-2C cinit CODE >798:C:\Users\tellw\AppData\Local\Temp\sfes.
-2D cinit CODE >799:C:\Users\tellw\AppData\Local\Temp\sfes.
-2E cinit CODE >800:C:\Users\tellw\AppData\Local\Temp\sfes.
-2F cinit CODE >801:C:\Users\tellw\AppData\Local\Temp\sfes.
-34 cinit CODE >804:C:\Users\tellw\AppData\Local\Temp\sfes.
-35 cinit CODE >805:C:\Users\tellw\AppData\Local\Temp\sfes.
-36 cinit CODE >806:C:\Users\tellw\AppData\Local\Temp\sfes.
-37 cinit CODE >807:C:\Users\tellw\AppData\Local\Temp\sfes.
-38 cinit CODE >808:C:\Users\tellw\AppData\Local\Temp\sfes.
-3B cinit CODE >811:C:\Users\tellw\AppData\Local\Temp\sfes.
-3C cinit CODE >812:C:\Users\tellw\AppData\Local\Temp\sfes.
-3D cinit CODE >813:C:\Users\tellw\AppData\Local\Temp\sfes.
-3E cinit CODE >814:C:\Users\tellw\AppData\Local\Temp\sfes.
-3F cinit CODE >815:C:\Users\tellw\AppData\Local\Temp\sfes.
-40 cinit CODE >816:C:\Users\tellw\AppData\Local\Temp\sfes.
-41 cinit CODE >817:C:\Users\tellw\AppData\Local\Temp\sfes.
-42 cinit CODE >820:C:\Users\tellw\AppData\Local\Temp\sfes.
-43 cinit CODE >821:C:\Users\tellw\AppData\Local\Temp\sfes.
-44 cinit CODE >827:C:\Users\tellw\AppData\Local\Temp\sfes.
-44 cinit CODE >829:C:\Users\tellw\AppData\Local\Temp\sfes.
-45 cinit CODE >830:C:\Users\tellw\AppData\Local\Temp\sfes.
+15 cinit CODE >684:C:\Users\tellw\AppData\Local\Temp\sffs.
+15 cinit CODE >687:C:\Users\tellw\AppData\Local\Temp\sffs.
+15 cinit CODE >766:C:\Users\tellw\AppData\Local\Temp\sffs.
+16 cinit CODE >767:C:\Users\tellw\AppData\Local\Temp\sffs.
+17 cinit CODE >768:C:\Users\tellw\AppData\Local\Temp\sffs.
+1C cinit CODE >769:C:\Users\tellw\AppData\Local\Temp\sffs.
+1D cinit CODE >770:C:\Users\tellw\AppData\Local\Temp\sffs.
+22 cinit CODE >771:C:\Users\tellw\AppData\Local\Temp\sffs.
+23 cinit CODE >775:C:\Users\tellw\AppData\Local\Temp\sffs.
+24 cinit CODE >776:C:\Users\tellw\AppData\Local\Temp\sffs.
+25 cinit CODE >777:C:\Users\tellw\AppData\Local\Temp\sffs.
+2A cinit CODE >778:C:\Users\tellw\AppData\Local\Temp\sffs.
+2B cinit CODE >797:C:\Users\tellw\AppData\Local\Temp\sffs.
+2C cinit CODE >798:C:\Users\tellw\AppData\Local\Temp\sffs.
+2D cinit CODE >799:C:\Users\tellw\AppData\Local\Temp\sffs.
+2E cinit CODE >800:C:\Users\tellw\AppData\Local\Temp\sffs.
+2F cinit CODE >801:C:\Users\tellw\AppData\Local\Temp\sffs.
+34 cinit CODE >804:C:\Users\tellw\AppData\Local\Temp\sffs.
+35 cinit CODE >805:C:\Users\tellw\AppData\Local\Temp\sffs.
+36 cinit CODE >806:C:\Users\tellw\AppData\Local\Temp\sffs.
+37 cinit CODE >807:C:\Users\tellw\AppData\Local\Temp\sffs.
+38 cinit CODE >808:C:\Users\tellw\AppData\Local\Temp\sffs.
+3B cinit CODE >811:C:\Users\tellw\AppData\Local\Temp\sffs.
+3C cinit CODE >812:C:\Users\tellw\AppData\Local\Temp\sffs.
+3D cinit CODE >813:C:\Users\tellw\AppData\Local\Temp\sffs.
+3E cinit CODE >814:C:\Users\tellw\AppData\Local\Temp\sffs.
+3F cinit CODE >815:C:\Users\tellw\AppData\Local\Temp\sffs.
+40 cinit CODE >816:C:\Users\tellw\AppData\Local\Temp\sffs.
+41 cinit CODE >817:C:\Users\tellw\AppData\Local\Temp\sffs.
+42 cinit CODE >820:C:\Users\tellw\AppData\Local\Temp\sffs.
+43 cinit CODE >821:C:\Users\tellw\AppData\Local\Temp\sffs.
+44 cinit CODE >827:C:\Users\tellw\AppData\Local\Temp\sffs.
+44 cinit CODE >829:C:\Users\tellw\AppData\Local\Temp\sffs.
+45 cinit CODE >830:C:\Users\tellw\AppData\Local\Temp\sffs.
 4 intentry CODE >924:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 DF6 text39 CODE >533:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 DF6 text39 CODE >535:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
@@ -631,16 +631,16 @@ ECE text1 CODE >605:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Ma
 73A maintext CODE >161:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 741 maintext CODE >162:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 746 maintext CODE >127:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-B77 clrtext CODE >784:C:\Users\tellw\AppData\Local\Temp\sfes.
-B77 clrtext CODE >785:C:\Users\tellw\AppData\Local\Temp\sfes.
-B78 clrtext CODE >786:C:\Users\tellw\AppData\Local\Temp\sfes.
-B78 clrtext CODE >787:C:\Users\tellw\AppData\Local\Temp\sfes.
-B79 clrtext CODE >788:C:\Users\tellw\AppData\Local\Temp\sfes.
-B7A clrtext CODE >789:C:\Users\tellw\AppData\Local\Temp\sfes.
-B7B clrtext CODE >790:C:\Users\tellw\AppData\Local\Temp\sfes.
-B7C clrtext CODE >791:C:\Users\tellw\AppData\Local\Temp\sfes.
-B7D clrtext CODE >792:C:\Users\tellw\AppData\Local\Temp\sfes.
-B7E clrtext CODE >793:C:\Users\tellw\AppData\Local\Temp\sfes.
+B77 clrtext CODE >784:C:\Users\tellw\AppData\Local\Temp\sffs.
+B77 clrtext CODE >785:C:\Users\tellw\AppData\Local\Temp\sffs.
+B78 clrtext CODE >786:C:\Users\tellw\AppData\Local\Temp\sffs.
+B78 clrtext CODE >787:C:\Users\tellw\AppData\Local\Temp\sffs.
+B79 clrtext CODE >788:C:\Users\tellw\AppData\Local\Temp\sffs.
+B7A clrtext CODE >789:C:\Users\tellw\AppData\Local\Temp\sffs.
+B7B clrtext CODE >790:C:\Users\tellw\AppData\Local\Temp\sffs.
+B7C clrtext CODE >791:C:\Users\tellw\AppData\Local\Temp\sffs.
+B7D clrtext CODE >792:C:\Users\tellw\AppData\Local\Temp\sffs.
+B7E clrtext CODE >793:C:\Users\tellw\AppData\Local\Temp\sffs.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -679,7 +679,7 @@ _WR C61 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.produc
 __Hstrings 0 0 ABS 0 strings -
 _RBIF 58 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _WREN C62 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-___sp 0 0 STACK 2 stack C:\Users\tellw\AppData\Local\Temp\sfes.obj
+___sp 0 0 STACK 2 stack C:\Users\tellw\AppData\Local\Temp\sffs.obj
 _atoi E8E 0 CODE 0 text10 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _init 1CF8 0 CODE 0 text1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _main D92 0 CODE 0 maintext dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -691,7 +691,7 @@ __end_of_Mode_3 1870 0 CODE 0 text27 dist/default/production\Bustel_Card_v10.0_c
 __end_of_Mode_4 17CE 0 CODE 0 text18 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __end_of_Mode_5 17F0 0 CODE 0 text17 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 SetRFMode@mode 2C 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-start 24 0 CODE 0 init C:\Users\tellw\AppData\Local\Temp\sfes.obj
+start 24 0 CODE 0 init C:\Users\tellw\AppData\Local\Temp\sffs.obj
 __CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_atoi 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_init 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -714,12 +714,12 @@ __size_of_WriteFIFO 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v
 TransmittedDataHandler@value 5D 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 i1_OperationMode 16FE 0 CODE 0 text38 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _ReadFIFO 1770 0 CODE 0 text14 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-intlevel0 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
-intlevel1 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
-intlevel2 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
-intlevel3 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
-intlevel4 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
-intlevel5 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
+intlevel0 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sffs.obj
+intlevel1 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sffs.obj
+intlevel2 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sffs.obj
+intlevel3 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sffs.obj
+intlevel4 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sffs.obj
+intlevel5 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sffs.obj
 _TransmittedDataHandler 90 0 CODE 0 text4 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 _timerFunction 17F0 0 CODE 0 text32 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -794,7 +794,7 @@ _TMR1IF 60 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.pro
 _TMR1ON 80 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _intHalfSecondCounter B5 0 BANK1 1 bssBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __end_of_ReadSPI 16EE 0 CODE 0 text25 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-___int_sp 0 0 STACK 2 stack C:\Users\tellw\AppData\Local\Temp\sfes.obj
+___int_sp 0 0 STACK 2 stack C:\Users\tellw\AppData\Local\Temp\sffs.obj
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -874,7 +874,7 @@ eeprom_write@value 20 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_
 _DelayDs 18D8 0 CODE 0 text36 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lintentry 8 0 CODE 0 intentry -
 __stringtab C00 0 STRING 0 strings dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-reset_vec 0 0 CODE 0 reset_vec C:\Users\tellw\AppData\Local\Temp\sfes.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\tellw\AppData\Local\Temp\sffs.obj
 _eeprom_write 1AA8 0 CODE 0 text9 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 strlen@s 26 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __pdataBANK0 6F 0 BANK0 1 dataBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -939,8 +939,8 @@ _strlen 1A50 0 CODE 0 text7 dist/default/production\Bustel_Card_v10.0_code_v1.7.
 _strstr F70 0 CODE 0 text5 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _tc_int A2A 0 CODE 0 text37 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _bValueFromPot 6F 0 BANK0 1 dataBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-stackhi 0 0 ABS 0 - C:\Users\tellw\AppData\Local\Temp\sfes.obj
-stacklo 0 0 ABS 0 - C:\Users\tellw\AppData\Local\Temp\sfes.obj
+stackhi 0 0 ABS 0 - C:\Users\tellw\AppData\Local\Temp\sffs.obj
+stacklo 0 0 ABS 0 - C:\Users\tellw\AppData\Local\Temp\sffs.obj
 strstr@s1 32 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 strstr@s2 2E 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __end_of_eeprom_read 19AC 0 CODE 0 text34 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj

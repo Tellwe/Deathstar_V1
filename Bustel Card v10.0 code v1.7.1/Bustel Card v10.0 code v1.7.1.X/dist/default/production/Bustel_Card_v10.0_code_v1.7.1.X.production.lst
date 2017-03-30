@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.40 build -251452761 
-                                                                                               Thu Mar 30 07:07:06 2017
+                                                                                               Thu Mar 30 19:24:50 2017
 
 Microchip Technology Omniscient Code Generator v1.40 (Free mode) build 201612010151
      1                           	processor	16F886
@@ -1800,8 +1800,8 @@ Microchip Technology Omniscient Code Generator v1.40 (Free mode) build 201612010
   1784  0067  01B1               	clrf	_intBlinkCounter^(0+128)
   1785  0068  01B2               	clrf	(_intBlinkCounter+1)^(0+128)
   1786                           
-  1787                           ;Main Card V10.0.c: 225: DelayDs(100);
-  1788  0069  3064               	movlw	100
+  1787                           ;Main Card V10.0.c: 225: DelayDs(1);
+  1788  0069  3001               	movlw	1
   1789  006A  1283               	bcf	3,5	;RP0=0, select bank0
   1790  006B  1303               	bcf	3,6	;RP1=0, select bank0
   1791  006C  00A0               	movwf	DelayDs@cnt
@@ -1855,8 +1855,8 @@ Microchip Technology Omniscient Code Generator v1.40 (Free mode) build 201612010
   1838  009D  01B1               	clrf	_intBlinkCounter^(0+128)
   1839  009E  01B2               	clrf	(_intBlinkCounter+1)^(0+128)
   1840                           
-  1841                           ;Main Card V10.0.c: 232: DelayDs(100);
-  1842  009F  3064               	movlw	100
+  1841                           ;Main Card V10.0.c: 232: DelayDs(1);
+  1842  009F  3001               	movlw	1
   1843  00A0  1283               	bcf	3,5	;RP0=0, select bank0
   1844  00A1  1303               	bcf	3,6	;RP1=0, select bank0
   1845  00A2  00A0               	movwf	DelayDs@cnt
@@ -6758,7 +6758,7 @@ EEDATA             100      0       0       0        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.40 build -251452761 
-Symbol Table                                                                                   Thu Mar 30 07:07:06 2017
+Symbol Table                                                                                   Thu Mar 30 19:24:50 2017
 
                       __CFG_CP$ON 0000                                 pc 0002        __size_of_TransiverReadFIFO 0066  
            _bTransiverModeReceive 006E                       _SSPSTATbits 0094                                _RD 0C60  

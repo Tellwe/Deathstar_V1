@@ -2383,14 +2383,14 @@ if((strstr(TransmittedString, "N1BLINK")) && (OperationMode() == 6))
 {
 intBlinkCycle = 1;
 intBlinkCounter = 0;
-DelayDs(100);
+DelayDs(1);
 TransmittString("N1BLINKSTARTED");
 }
 else if((strstr(TransmittedString, "N2BLINK")) && (OperationMode() == 7))
 {
 intBlinkCycle = 1;
 intBlinkCounter = 0;
-DelayDs(100);
+DelayDs(1);
 TransmittString("N2BLINKSTARTED");
 }
 else if((strstr(TransmittedString, "N1BLINKSTARTED")) && (OperationMode() == 4))

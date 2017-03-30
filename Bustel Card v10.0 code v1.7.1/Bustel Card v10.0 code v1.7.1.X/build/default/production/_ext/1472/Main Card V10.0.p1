@@ -2346,9 +2346,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Main Card V10.0.c: 224: intBlinkCounter = 0;
 "224
 [e = _intBlinkCounter -> 0 `i ]
-[; ;Main Card V10.0.c: 225: DelayDs(100);
+[; ;Main Card V10.0.c: 225: DelayDs(1);
 "225
-[e ( _DelayDs (1 -> 100 `i ]
+[e ( _DelayDs (1 -> 1 `i ]
 [; ;Main Card V10.0.c: 226: TransmittString("N1BLINKSTARTED");
 "226
 [e ( _TransmittString (1 -> :s 2C `*uc ]
@@ -2369,9 +2369,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Main Card V10.0.c: 231: intBlinkCounter = 0;
 "231
 [e = _intBlinkCounter -> 0 `i ]
-[; ;Main Card V10.0.c: 232: DelayDs(100);
+[; ;Main Card V10.0.c: 232: DelayDs(1);
 "232
-[e ( _DelayDs (1 -> 100 `i ]
+[e ( _DelayDs (1 -> 1 `i ]
 [; ;Main Card V10.0.c: 233: TransmittString("N2BLINKSTARTED");
 "233
 [e ( _TransmittString (1 -> :s 4C `*uc ]
