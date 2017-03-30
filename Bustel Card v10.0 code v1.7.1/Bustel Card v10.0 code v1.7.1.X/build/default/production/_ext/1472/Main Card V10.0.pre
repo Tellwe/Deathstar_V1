@@ -2384,8 +2384,22 @@ if((strstr(TransmittedString, "N1BLINK")) && (OperationMode() == 6))
 intBlinkCycle = 1;
 intBlinkCounter = 0;
 DelayDs(100);
+TransmittString("N1BLINKSTARTED");
 }
 else if((strstr(TransmittedString, "N2BLINK")) && (OperationMode() == 7))
+{
+intBlinkCycle = 1;
+intBlinkCounter = 0;
+DelayDs(100);
+TransmittString("N2BLINKSTARTED");
+}
+else if((strstr(TransmittedString, "N1BLINKSTARTED")) && (OperationMode() == 4))
+{
+intBlinkCycle = 1;
+intBlinkCounter = 0;
+DelayDs(100);
+}
+else if((strstr(TransmittedString, "N2BLINKSTARTED")) && (OperationMode() == 5))
 {
 intBlinkCycle = 1;
 intBlinkCounter = 0;
@@ -2462,7 +2476,7 @@ eeprom_write(addressDarknessValue,(unsigned char)value);
 }
 }
 
-# 322
+# 336
 void TransmittString(unsigned char dataString[])
 {
 timerFunction(4, 5);
@@ -2511,13 +2525,13 @@ _delay((unsigned long)((1)*(4000000/4000.0)));
 
 }
 
-# 375
+# 389
 void Mode_0()
 {
 LightWithSensController();
 }
 
-# 383
+# 397
 void Mode_1()
 {
 
@@ -2529,7 +2543,7 @@ else
 PORTCbits.RC2 = 0;
 }
 
-# 397
+# 411
 void Mode_2()
 {
 LightWithSensController();
@@ -2539,7 +2553,7 @@ else
 PORTCbits.RC1 = 0;
 }
 
-# 408
+# 422
 void Mode_3()
 {
 LightWithSensController();
@@ -2550,7 +2564,7 @@ intBlinkCounter = 0;
 }
 }
 
-# 421
+# 435
 void Mode_4()
 {
 if(!PORTBbits.RB5)
@@ -2560,7 +2574,7 @@ TransmittString("N1BLINK");
 LightWithSensController();
 }
 
-# 433
+# 447
 void Mode_5()
 {
 if(!PORTBbits.RB5)
@@ -2570,7 +2584,7 @@ TransmittString("N2BLINK");
 LightWithSensController();
 }
 
-# 446
+# 460
 void LightWithSensController(void)
 {
 
@@ -2603,7 +2617,7 @@ PORTCbits.RC2 = 0;
 
 }
 
-# 497
+# 511
 unsigned char timerFunction(int intTimerNumber, int intSetSeconds )
 {
 intClockTimer[intTimerNumber] = intSetSeconds;
@@ -2611,7 +2625,7 @@ bTimerComplete[intTimerNumber] = 0;
 return 1;
 }
 
-# 519
+# 533
 void TimerCounter()
 {
 for (int i = 0; i < 5; i++)
@@ -2744,7 +2758,7 @@ SetRFMode(0x00);
 
 }
 
-# 669
+# 683
 char FindChannel(void)
 {
 int cnt = 0;
@@ -2782,7 +2796,7 @@ return 0;
 
 }
 
-# 724
+# 738
 void SetRFMode(BYTE mode)
 {
 PORTAbits.RA4 = 0;
@@ -2813,7 +2827,7 @@ break;
 PORTAbits.RA4 = 1;
 }
 
-# 772
+# 786
 void Blink(int n)
 {
 for(int i = 1;i<=n;i++)
@@ -2826,7 +2840,7 @@ DelayDs(6);
 
 }
 
-# 803
+# 817
 unsigned char RegisterRead(unsigned char adress)
 {
 BYTE value;
@@ -2838,7 +2852,7 @@ PORTAbits.RA4 = 1;
 return value;
 }
 
-# 833
+# 847
 void RegisterSet(unsigned char adress, unsigned char value)
 {
 PORTAbits.RA4 = 0;
@@ -2848,7 +2862,7 @@ WriteSPI(value);
 PORTAbits.RA4 = 1;
 }
 
-# 859
+# 873
 unsigned char ReadFIFO(void)
 {
 BYTE value;
@@ -2859,7 +2873,7 @@ return value;
 
 }
 
-# 886
+# 900
 void WriteFIFO(unsigned char Data)
 {
 PORTAbits.RA5 = 0;
@@ -2867,7 +2881,7 @@ WriteSPI(Data);
 PORTAbits.RA5 = 1;
 }
 
-# 910
+# 924
 void interrupt tc_int(void){
 
 
@@ -2923,7 +2937,7 @@ GIE = 1;
 return;
 }
 
-# 981
+# 995
 unsigned char AnalogValue(unsigned char channel)
 {
 ADCON0bits.CHS = channel;
@@ -2937,7 +2951,7 @@ return ADRESH;
 
 }
 
-# 1008
+# 1022
 void DarknessCheck(void)
 {
 unsigned char darknessValue;
@@ -2956,7 +2970,7 @@ PORTCbits.RC0 = 0;
 
 }
 
-# 1042
+# 1056
 unsigned char OperationMode(void)
 {
 unsigned char bracketStatus;

@@ -11,65 +11,65 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\tellw\AppData\Local\Temp\scfo.obj
-reset_vec CODE 0 0 0 3 2
-end_init CODE 0 12 12 3 2
-config CONFIG 0 2007 2007 1 2
 $dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 cinit CODE 0 15 15 33 2
-text1 CODE 0 F51 F51 53 2
-text2 CODE 0 FA4 FA4 5C 2
-text3 CODE 0 79A 79A 66 2
-text4 CODE 0 48 48 1A5 2
-text5 CODE 0 F0B F0B 46 2
-text6 CODE 0 EC7 EC7 44 2
-text7 CODE 0 DB7 DB7 2C 2
-text8 CODE 0 C99 C99 15 2
-text9 CODE 0 DE3 DE3 30 2
-text10 CODE 0 729 729 71 2
-text11 CODE 0 C55 C55 10 2
-text12 CODE 0 D1E D1E 23 2
-text13 CODE 0 C17 C17 9 2
-text14 CODE 0 C47 C47 E 2
-text15 CODE 0 2ED 2ED EA 2
-text16 CODE 0 E13 E13 33 2
-text17 CODE 0 C76 C76 11 2
-text18 CODE 0 C65 C65 11 2
-text19 CODE 0 3D7 3D7 D2 2
-text20 CODE 0 C20 C20 C 2
-text21 CODE 0 1ED 1ED 100 2
-text22 CODE 0 575 575 6F 2
-text23 CODE 0 CE1 CE1 1A 2
-text24 CODE 0 5E4 5E4 1C 2
-text25 CODE 0 BFE BFE 8 2
-text26 CODE 0 C39 C39 E 2
-text27 CODE 0 CAE CAE 19 2
-text28 CODE 0 C2C C2C D 2
-text29 CODE 0 CC7 CC7 1A 2
-text30 CODE 0 BFA BFA 4 2
-text31 CODE 0 E46 E46 3F 2
-text32 CODE 0 C87 C87 12 2
-text33 CODE 0 D8E D8E 29 2
-text34 CODE 0 D41 D41 24 2
-text35 CODE 0 D65 D65 29 2
-text36 CODE 0 CFB CFB 23 2
-text37 CODE 0 4A9 4A9 CC 2
-text38 CODE 0 C0E C0E 9 2
-text39 CODE 0 E85 E85 42 2
-maintext CODE 0 6AB 6AB 7E 2
+text1 CODE 0 E7C E7C 53 2
+text2 CODE 0 ECF ECF 5C 2
+text3 CODE 0 F2B F2B 66 2
+text4 CODE 0 48 48 211 2
+text5 CODE 0 7B8 7B8 46 2
+text6 CODE 0 E38 E38 44 2
+text7 CODE 0 D28 D28 2C 2
+text8 CODE 0 C0A C0A 15 2
+text9 CODE 0 D54 D54 30 2
+text10 CODE 0 747 747 71 2
+text11 CODE 0 BC6 BC6 10 2
+text12 CODE 0 C8F C8F 23 2
+text13 CODE 0 B88 B88 9 2
+text14 CODE 0 BB8 BB8 E 2
+text15 CODE 0 359 359 EA 2
+text16 CODE 0 D84 D84 33 2
+text17 CODE 0 BE7 BE7 11 2
+text18 CODE 0 BD6 BD6 11 2
+text19 CODE 0 443 443 D2 2
+text20 CODE 0 B91 B91 C 2
+text21 CODE 0 259 259 100 2
+text22 CODE 0 F91 F91 6F 2
+text23 CODE 0 C52 C52 1A 2
+text24 CODE 0 5E1 5E1 1C 2
+text25 CODE 0 B6F B6F 8 2
+text26 CODE 0 BAA BAA E 2
+text27 CODE 0 C1F C1F 19 2
+text28 CODE 0 B9D B9D D 2
+text29 CODE 0 C38 C38 1A 2
+text30 CODE 0 B6B B6B 4 2
+text31 CODE 0 DB7 DB7 3F 2
+text32 CODE 0 BF8 BF8 12 2
+text33 CODE 0 CFF CFF 29 2
+text34 CODE 0 CB2 CB2 24 2
+text35 CODE 0 CD6 CD6 29 2
+text36 CODE 0 C6C C6C 23 2
+text37 CODE 0 515 515 CC 2
+text38 CODE 0 B7F B7F 9 2
+text39 CODE 0 DF6 DF6 42 2
+maintext CODE 0 6C9 6C9 7E 2
 cstackCOMMON COMMON 1 70 70 C 1
 cstackBANK0 BANK0 1 20 20 48 1
 intentry CODE 0 4 4 E 2
 bssBANK0 BANK0 1 68 68 7 1
 bssBANK1 BANK1 1 A0 A0 37 1
 bssBANK3 BANK3 1 190 190 28 1
-idataBANK0 CODE 0 3 3 1 2
-idataBANK1 CODE 0 BF8 BF8 2 2
-strings STRING 0 600 600 AB 2
+idataBANK0 CODE 0 5FD 5FD 1 2
+idataBANK1 CODE 0 7FE 7FE 2 2
+strings STRING 0 600 600 C9 2
 dataBANK0 BANK0 1 6F 6F 1 1
 dataBANK1 BANK1 1 D7 D7 2 1
-clrtext CODE 0 C06 C06 8 2
+clrtext CODE 0 B77 B77 8 2
 bssCOMMON COMMON 1 7C 7C 2 1
+$C:\Users\tellw\AppData\Local\Temp\sfes.obj
+reset_vec CODE 0 0 0 3 2
+end_init CODE 0 12 12 3 2
+config CONFIG 0 2007 2007 1 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -82,13 +82,19 @@ RAM 1B8-1EF 1
 BANK1 D9-EF 1
 BANK2 110-16F 1
 BANK3 1B8-1EF 1
-CONST 800-BF7 2
+CONST 3-3 2
+CONST 5FE-5FF 2
+CONST 800-B6A 2
 CONST 1000-1FFF 2
-ENTRY 800-BF7 2
+ENTRY 3-3 2
+ENTRY 5FE-5FF 2
+ENTRY 800-B6A 2
 ENTRY 1000-1FFF 2
 IDLOC 2000-2003 2
 STACK 110-16F 1
-CODE 800-BF7 2
+CODE 3-3 2
+CODE 5FE-5FF 2
+CODE 800-B6A 2
 CODE 1000-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -96,9 +102,13 @@ SFR2 100-10F 1
 SFR3 180-18F 1
 CONFIG 2008-2008 2
 EEDATA 2100-21FF 2
-STRCODE 800-BF7 2
+STRCODE 3-3 2
+STRCODE 5FE-5FF 2
+STRCODE 800-B6A 2
 STRCODE 1000-1FFF 2
-STRING 800-BF7 2
+STRING 3-3 2
+STRING 5FE-5FF 2
+STRING 800-B6A 2
 STRING 1000-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -114,511 +124,523 @@ STRING 1000-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-15 cinit CODE >646:C:\Users\tellw\AppData\Local\Temp\scfo.
-15 cinit CODE >649:C:\Users\tellw\AppData\Local\Temp\scfo.
-15 cinit CODE >728:C:\Users\tellw\AppData\Local\Temp\scfo.
-16 cinit CODE >729:C:\Users\tellw\AppData\Local\Temp\scfo.
-17 cinit CODE >730:C:\Users\tellw\AppData\Local\Temp\scfo.
-1C cinit CODE >731:C:\Users\tellw\AppData\Local\Temp\scfo.
-1D cinit CODE >732:C:\Users\tellw\AppData\Local\Temp\scfo.
-22 cinit CODE >733:C:\Users\tellw\AppData\Local\Temp\scfo.
-23 cinit CODE >737:C:\Users\tellw\AppData\Local\Temp\scfo.
-24 cinit CODE >738:C:\Users\tellw\AppData\Local\Temp\scfo.
-25 cinit CODE >739:C:\Users\tellw\AppData\Local\Temp\scfo.
-2A cinit CODE >740:C:\Users\tellw\AppData\Local\Temp\scfo.
-2B cinit CODE >759:C:\Users\tellw\AppData\Local\Temp\scfo.
-2C cinit CODE >760:C:\Users\tellw\AppData\Local\Temp\scfo.
-2D cinit CODE >761:C:\Users\tellw\AppData\Local\Temp\scfo.
-2E cinit CODE >762:C:\Users\tellw\AppData\Local\Temp\scfo.
-2F cinit CODE >763:C:\Users\tellw\AppData\Local\Temp\scfo.
-34 cinit CODE >766:C:\Users\tellw\AppData\Local\Temp\scfo.
-35 cinit CODE >767:C:\Users\tellw\AppData\Local\Temp\scfo.
-36 cinit CODE >768:C:\Users\tellw\AppData\Local\Temp\scfo.
-37 cinit CODE >769:C:\Users\tellw\AppData\Local\Temp\scfo.
-38 cinit CODE >770:C:\Users\tellw\AppData\Local\Temp\scfo.
-3B cinit CODE >773:C:\Users\tellw\AppData\Local\Temp\scfo.
-3C cinit CODE >774:C:\Users\tellw\AppData\Local\Temp\scfo.
-3D cinit CODE >775:C:\Users\tellw\AppData\Local\Temp\scfo.
-3E cinit CODE >776:C:\Users\tellw\AppData\Local\Temp\scfo.
-3F cinit CODE >777:C:\Users\tellw\AppData\Local\Temp\scfo.
-40 cinit CODE >778:C:\Users\tellw\AppData\Local\Temp\scfo.
-41 cinit CODE >779:C:\Users\tellw\AppData\Local\Temp\scfo.
-42 cinit CODE >782:C:\Users\tellw\AppData\Local\Temp\scfo.
-43 cinit CODE >783:C:\Users\tellw\AppData\Local\Temp\scfo.
-44 cinit CODE >789:C:\Users\tellw\AppData\Local\Temp\scfo.
-44 cinit CODE >791:C:\Users\tellw\AppData\Local\Temp\scfo.
-45 cinit CODE >792:C:\Users\tellw\AppData\Local\Temp\scfo.
-4 intentry CODE >910:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E85 text39 CODE >519:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E85 text39 CODE >521:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E92 text39 CODE >523:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-EA8 text39 CODE >524:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-EBA text39 CODE >526:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-EC0 text39 CODE >521:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C0E text38 CODE >1042:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C0E text38 CODE >1045:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C15 text38 CODE >1047:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4A9 text37 CODE >910:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4A9 text37 CODE >914:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4B9 text37 CODE >915:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4BF text37 CODE >916:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4C3 text37 CODE >919:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4C7 text37 CODE >920:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4C8 text37 CODE >921:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4CA text37 CODE >922:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4CC text37 CODE >924:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4E5 text37 CODE >925:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4ED text37 CODE >927:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4F1 text37 CODE >928:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4F3 text37 CODE >929:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4F5 text37 CODE >930:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4F6 text37 CODE >933:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-511 text37 CODE >934:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-515 text37 CODE >935:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-516 text37 CODE >939:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-51E text37 CODE >940:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-529 text37 CODE >942:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-52D text37 CODE >943:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-535 text37 CODE >944:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-53A text37 CODE >946:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-547 text37 CODE >948:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-54B text37 CODE >949:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-553 text37 CODE >951:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-560 text37 CODE >953:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-564 text37 CODE >957:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-567 text37 CODE >959:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-568 text37 CODE >960:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-569 text37 CODE >961:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-56A text37 CODE >963:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CFB text36 CODE >595:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CFB text36 CODE >597:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D0B text36 CODE >598:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D15 text36 CODE >597:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D65 text35 CODE >981:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D68 text35 CODE >983:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D71 text35 CODE >984:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D72 text35 CODE >985:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D7B text35 CODE >986:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D7E text35 CODE >987:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D87 text35 CODE >988:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D8B text35 CODE >989:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D8C text35 CODE >990:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D41 text34 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
-D44 text34 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
-D47 text34 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
-D47 text34 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
-D48 text34 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
-D4C text34 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
-D8E text33 CODE >1008:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D8E text33 CODE >1011:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D91 text33 CODE >1013:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D94 text33 CODE >1014:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D9B text33 CODE >1016:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-DA6 text33 CODE >1018:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-DB1 text33 CODE >1019:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-DB4 text33 CODE >1021:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-DB5 text33 CODE >1022:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-DB6 text33 CODE >1024:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C87 text32 CODE >497:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C87 text32 CODE >499:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C94 text32 CODE >500:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E46 text31 CODE >446:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E46 text31 CODE >450:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E4E text31 CODE >451:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E53 text31 CODE >455:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E5B text31 CODE >458:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E5C text31 CODE >460:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E68 text31 CODE >464:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E6D text31 CODE >466:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E72 text31 CODE >467:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E78 text31 CODE >469:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E82 text31 CODE >470:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E83 text31 CODE >471:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E83 text31 CODE >472:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-BFA text30 CODE >375:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-BFA text30 CODE >377:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-BFD text30 CODE >378:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CC7 text29 CODE >383:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CC7 text29 CODE >386:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CCF text29 CODE >387:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CD4 text29 CODE >388:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CDD text29 CODE >389:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CDF text29 CODE >390:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CDF text29 CODE >391:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C2C text28 CODE >397:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C2C text28 CODE >399:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C31 text28 CODE >400:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C35 text28 CODE >401:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C37 text28 CODE >402:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C37 text28 CODE >403:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CAE text27 CODE >408:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CAE text27 CODE >410:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CB3 text27 CODE >411:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CBE text27 CODE >413:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CC2 text27 CODE >414:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C39 text26 CODE >604:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C3C text26 CODE >607:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C40 text26 CODE >608:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C41 text26 CODE >609:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C43 text26 CODE >610:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C45 text26 CODE >611:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C46 text26 CODE >612:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-BFE text25 CODE >616:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-BFE text25 CODE >618:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C02 text25 CODE >619:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5E4 text24 CODE >803:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5E7 text24 CODE >806:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5E8 text24 CODE >807:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5EF text24 CODE >808:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5F5 text24 CODE >809:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5FD text24 CODE >810:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5FE text24 CODE >811:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CE1 text23 CODE >833:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CE4 text23 CODE >835:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CE5 text23 CODE >836:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CEB text23 CODE >837:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CF1 text23 CODE >838:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CF7 text23 CODE >839:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-CFA text23 CODE >840:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-575 text22 CODE >724:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-578 text22 CODE >726:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-579 text22 CODE >728:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-584 text22 CODE >729:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-585 text22 CODE >731:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-591 text22 CODE >733:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-592 text22 CODE >735:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5A0 text22 CODE >737:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5A1 text22 CODE >739:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5AF text22 CODE >741:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5B0 text22 CODE >743:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5BE text22 CODE >745:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5BF text22 CODE >747:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5CC text22 CODE >750:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5CD text22 CODE >729:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5E0 text22 CODE >750:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5E0 text22 CODE >751:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-5E3 text22 CODE >752:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1ED text21 CODE >669:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1ED text21 CODE >671:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1F1 text21 CODE >672:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1F2 text21 CODE >673:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1F6 text21 CODE >675:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-204 text21 CODE >676:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-213 text21 CODE >678:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-226 text21 CODE >679:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-239 text21 CODE >680:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-24C text21 CODE >681:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-25F text21 CODE >682:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-272 text21 CODE >683:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-285 text21 CODE >684:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-297 text21 CODE >685:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-29D text21 CODE >686:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2A1 text21 CODE >687:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2AE text21 CODE >690:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2B7 text21 CODE >692:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2BB text21 CODE >693:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2C5 text21 CODE >694:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2C7 text21 CODE >696:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2CF text21 CODE >697:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2D7 text21 CODE >687:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2D8 text21 CODE >676:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2EB text21 CODE >702:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C20 text20 CODE >886:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C23 text20 CODE >888:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C24 text20 CODE >889:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C28 text20 CODE >890:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C2B text20 CODE >891:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3D7 text19 CODE >322:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3D7 text19 CODE >324:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3E6 text19 CODE >326:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3EA text19 CODE >329:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3F0 text19 CODE >330:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3FA text19 CODE >331:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-40C text19 CODE >332:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-412 text19 CODE >333:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-41B text19 CODE >335:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-420 text19 CODE >337:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-425 text19 CODE >342:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-42B text19 CODE >343:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-432 text19 CODE >346:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-438 text19 CODE >347:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-43E text19 CODE >348:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-444 text19 CODE >349:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-44A text19 CODE >352:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-465 text19 CODE >354:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-482 text19 CODE >355:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-48A text19 CODE >352:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-48B text19 CODE >361:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-490 text19 CODE >359:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-490 text19 CODE >363:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-493 text19 CODE >364:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-49A text19 CODE >365:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4A0 text19 CODE >366:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-4A8 text19 CODE >368:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C65 text18 CODE >421:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C65 text18 CODE >423:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C69 text18 CODE >425:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C72 text18 CODE >427:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C75 text18 CODE >428:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C76 text17 CODE >433:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C76 text17 CODE >435:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C7A text17 CODE >437:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C83 text17 CODE >439:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C86 text17 CODE >440:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E13 text16 CODE >772:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E13 text16 CODE >774:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E25 text16 CODE >776:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E28 text16 CODE >777:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E31 text16 CODE >778:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E34 text16 CODE >779:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E3D text16 CODE >774:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2ED text15 CODE >624:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2ED text15 CODE >627:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-2F9 text15 CODE >628:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-305 text15 CODE >629:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-311 text15 CODE >630:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-31D text15 CODE >631:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-329 text15 CODE >632:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-335 text15 CODE >633:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-341 text15 CODE >634:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-34D text15 CODE >635:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-359 text15 CODE >636:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-365 text15 CODE >637:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-371 text15 CODE >638:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-37D text15 CODE >639:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-389 text15 CODE >640:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-395 text15 CODE >641:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3A1 text15 CODE >642:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3AD text15 CODE >643:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3BF text15 CODE >645:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3C7 text15 CODE >646:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3D2 text15 CODE >647:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-3D6 text15 CODE >649:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C47 text14 CODE >859:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C47 text14 CODE >862:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C4A text14 CODE >863:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C52 text14 CODE >864:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C53 text14 CODE >865:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C17 text13 CODE >1042:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C17 text13 CODE >1045:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C1E text13 CODE >1047:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D1E text12 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
-D1E text12 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
-D22 text12 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
-D24 text12 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
-D2A text12 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
-D31 text12 CODE >48:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
-D38 text12 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
-D3C text12 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
-C55 text11 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\isdigit.c
-C58 text11 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\isdigit.c
-729 text10 CODE >5:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-72C text10 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-733 text10 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-737 text10 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-73E text10 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-740 text10 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-741 text10 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-747 text10 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-74C text10 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-752 text10 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-756 text10 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-760 text10 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-783 text10 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-784 text10 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-789 text10 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-795 text10 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
-DE3 text9 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eewrite.c
-DE6 text9 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eewrite.c
-C99 text8 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
-C9C text8 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
-C9C text8 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
-CA3 text8 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
-CA5 text8 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
-CAC text8 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
-DB7 text7 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
-DBA text7 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
-DBE text7 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
-DC8 text7 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
-DCC text7 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
-DCD text7 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
-EC7 text6 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
-ECA text6 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
-ECA text6 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
-ED5 text6 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
-EE9 text6 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
-EFF text6 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
-F03 text6 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
-F07 text6 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
-F08 text6 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
-F0B text5 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
-F0E text5 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
-F0F text5 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
-F2B text5 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
-F2D text5 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
-F46 text5 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
-F4F text5 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
+15 cinit CODE >684:C:\Users\tellw\AppData\Local\Temp\sfes.
+15 cinit CODE >687:C:\Users\tellw\AppData\Local\Temp\sfes.
+15 cinit CODE >766:C:\Users\tellw\AppData\Local\Temp\sfes.
+16 cinit CODE >767:C:\Users\tellw\AppData\Local\Temp\sfes.
+17 cinit CODE >768:C:\Users\tellw\AppData\Local\Temp\sfes.
+1C cinit CODE >769:C:\Users\tellw\AppData\Local\Temp\sfes.
+1D cinit CODE >770:C:\Users\tellw\AppData\Local\Temp\sfes.
+22 cinit CODE >771:C:\Users\tellw\AppData\Local\Temp\sfes.
+23 cinit CODE >775:C:\Users\tellw\AppData\Local\Temp\sfes.
+24 cinit CODE >776:C:\Users\tellw\AppData\Local\Temp\sfes.
+25 cinit CODE >777:C:\Users\tellw\AppData\Local\Temp\sfes.
+2A cinit CODE >778:C:\Users\tellw\AppData\Local\Temp\sfes.
+2B cinit CODE >797:C:\Users\tellw\AppData\Local\Temp\sfes.
+2C cinit CODE >798:C:\Users\tellw\AppData\Local\Temp\sfes.
+2D cinit CODE >799:C:\Users\tellw\AppData\Local\Temp\sfes.
+2E cinit CODE >800:C:\Users\tellw\AppData\Local\Temp\sfes.
+2F cinit CODE >801:C:\Users\tellw\AppData\Local\Temp\sfes.
+34 cinit CODE >804:C:\Users\tellw\AppData\Local\Temp\sfes.
+35 cinit CODE >805:C:\Users\tellw\AppData\Local\Temp\sfes.
+36 cinit CODE >806:C:\Users\tellw\AppData\Local\Temp\sfes.
+37 cinit CODE >807:C:\Users\tellw\AppData\Local\Temp\sfes.
+38 cinit CODE >808:C:\Users\tellw\AppData\Local\Temp\sfes.
+3B cinit CODE >811:C:\Users\tellw\AppData\Local\Temp\sfes.
+3C cinit CODE >812:C:\Users\tellw\AppData\Local\Temp\sfes.
+3D cinit CODE >813:C:\Users\tellw\AppData\Local\Temp\sfes.
+3E cinit CODE >814:C:\Users\tellw\AppData\Local\Temp\sfes.
+3F cinit CODE >815:C:\Users\tellw\AppData\Local\Temp\sfes.
+40 cinit CODE >816:C:\Users\tellw\AppData\Local\Temp\sfes.
+41 cinit CODE >817:C:\Users\tellw\AppData\Local\Temp\sfes.
+42 cinit CODE >820:C:\Users\tellw\AppData\Local\Temp\sfes.
+43 cinit CODE >821:C:\Users\tellw\AppData\Local\Temp\sfes.
+44 cinit CODE >827:C:\Users\tellw\AppData\Local\Temp\sfes.
+44 cinit CODE >829:C:\Users\tellw\AppData\Local\Temp\sfes.
+45 cinit CODE >830:C:\Users\tellw\AppData\Local\Temp\sfes.
+4 intentry CODE >924:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DF6 text39 CODE >533:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DF6 text39 CODE >535:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E03 text39 CODE >537:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E19 text39 CODE >538:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E2B text39 CODE >540:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E31 text39 CODE >535:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B7F text38 CODE >1056:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B7F text38 CODE >1059:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B86 text38 CODE >1061:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+515 text37 CODE >924:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+515 text37 CODE >928:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+525 text37 CODE >929:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+52B text37 CODE >930:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+52F text37 CODE >933:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+533 text37 CODE >934:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+534 text37 CODE >935:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+536 text37 CODE >936:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+538 text37 CODE >938:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+551 text37 CODE >939:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+559 text37 CODE >941:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+55D text37 CODE >942:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+55F text37 CODE >943:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+561 text37 CODE >944:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+562 text37 CODE >947:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+57D text37 CODE >948:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+581 text37 CODE >949:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+582 text37 CODE >953:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+58A text37 CODE >954:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+595 text37 CODE >956:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+599 text37 CODE >957:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5A1 text37 CODE >958:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5A6 text37 CODE >960:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5B3 text37 CODE >962:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5B7 text37 CODE >963:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5BF text37 CODE >965:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5CC text37 CODE >967:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5D0 text37 CODE >971:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5D3 text37 CODE >973:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5D4 text37 CODE >974:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5D5 text37 CODE >975:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5D6 text37 CODE >977:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C6C text36 CODE >609:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C6C text36 CODE >611:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C7C text36 CODE >612:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C86 text36 CODE >611:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CD6 text35 CODE >995:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CD9 text35 CODE >997:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CE2 text35 CODE >998:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CE3 text35 CODE >999:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CEC text35 CODE >1000:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CEF text35 CODE >1001:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CF8 text35 CODE >1002:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CFC text35 CODE >1003:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CFD text35 CODE >1004:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CB2 text34 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
+CB5 text34 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
+CB8 text34 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
+CB8 text34 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
+CB9 text34 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
+CBD text34 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
+CFF text33 CODE >1022:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CFF text33 CODE >1025:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D02 text33 CODE >1027:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D05 text33 CODE >1028:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D0C text33 CODE >1030:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D17 text33 CODE >1032:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D22 text33 CODE >1033:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D25 text33 CODE >1035:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D26 text33 CODE >1036:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D27 text33 CODE >1038:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BF8 text32 CODE >511:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BF8 text32 CODE >513:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C05 text32 CODE >514:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DB7 text31 CODE >460:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DB7 text31 CODE >464:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DBF text31 CODE >465:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DC4 text31 CODE >469:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DCC text31 CODE >472:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DCD text31 CODE >474:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DD9 text31 CODE >478:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DDE text31 CODE >480:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DE3 text31 CODE >481:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DE9 text31 CODE >483:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DF3 text31 CODE >484:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DF4 text31 CODE >485:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DF4 text31 CODE >486:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B6B text30 CODE >389:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B6B text30 CODE >391:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B6E text30 CODE >392:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C38 text29 CODE >397:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C38 text29 CODE >400:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C40 text29 CODE >401:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C45 text29 CODE >402:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C4E text29 CODE >403:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C50 text29 CODE >404:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C50 text29 CODE >405:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B9D text28 CODE >411:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B9D text28 CODE >413:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BA2 text28 CODE >414:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BA6 text28 CODE >415:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BA8 text28 CODE >416:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BA8 text28 CODE >417:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C1F text27 CODE >422:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C1F text27 CODE >424:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C24 text27 CODE >425:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C2F text27 CODE >427:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C33 text27 CODE >428:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BAA text26 CODE >618:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BAD text26 CODE >621:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BB1 text26 CODE >622:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BB2 text26 CODE >623:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BB4 text26 CODE >624:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BB6 text26 CODE >625:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BB7 text26 CODE >626:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B6F text25 CODE >630:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B6F text25 CODE >632:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B73 text25 CODE >633:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5E1 text24 CODE >817:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5E4 text24 CODE >820:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5E5 text24 CODE >821:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5EC text24 CODE >822:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5F2 text24 CODE >823:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5FA text24 CODE >824:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+5FB text24 CODE >825:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C52 text23 CODE >847:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C55 text23 CODE >849:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C56 text23 CODE >850:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C5C text23 CODE >851:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C62 text23 CODE >852:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C68 text23 CODE >853:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C6B text23 CODE >854:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F91 text22 CODE >738:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F94 text22 CODE >740:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F95 text22 CODE >742:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FA0 text22 CODE >743:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FA1 text22 CODE >745:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FAD text22 CODE >747:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FAE text22 CODE >749:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FBC text22 CODE >751:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FBD text22 CODE >753:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FCB text22 CODE >755:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FCC text22 CODE >757:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FDA text22 CODE >759:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FDB text22 CODE >761:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FE8 text22 CODE >764:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FE9 text22 CODE >743:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FFC text22 CODE >764:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FFC text22 CODE >765:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FFF text22 CODE >766:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+259 text21 CODE >683:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+259 text21 CODE >685:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+25D text21 CODE >686:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+25E text21 CODE >687:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+262 text21 CODE >689:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+270 text21 CODE >690:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+27F text21 CODE >692:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+292 text21 CODE >693:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+2A5 text21 CODE >694:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+2B8 text21 CODE >695:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+2CB text21 CODE >696:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+2DE text21 CODE >697:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+2F1 text21 CODE >698:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+303 text21 CODE >699:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+309 text21 CODE >700:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+30D text21 CODE >701:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+31A text21 CODE >704:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+323 text21 CODE >706:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+327 text21 CODE >707:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+331 text21 CODE >708:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+333 text21 CODE >710:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+33B text21 CODE >711:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+343 text21 CODE >701:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+344 text21 CODE >690:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+357 text21 CODE >716:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B91 text20 CODE >900:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B94 text20 CODE >902:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B95 text20 CODE >903:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B99 text20 CODE >904:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B9C text20 CODE >905:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+443 text19 CODE >336:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+443 text19 CODE >338:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+452 text19 CODE >340:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+456 text19 CODE >343:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+45C text19 CODE >344:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+466 text19 CODE >345:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+478 text19 CODE >346:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+47E text19 CODE >347:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+487 text19 CODE >349:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+48C text19 CODE >351:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+491 text19 CODE >356:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+497 text19 CODE >357:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+49E text19 CODE >360:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4A4 text19 CODE >361:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4AA text19 CODE >362:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4B0 text19 CODE >363:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4B6 text19 CODE >366:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4D1 text19 CODE >368:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4EE text19 CODE >369:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4F6 text19 CODE >366:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4F7 text19 CODE >375:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4FC text19 CODE >373:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4FC text19 CODE >377:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+4FF text19 CODE >378:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+506 text19 CODE >379:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+50C text19 CODE >380:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+514 text19 CODE >382:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BD6 text18 CODE >435:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BD6 text18 CODE >437:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BDA text18 CODE >439:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BE3 text18 CODE >441:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BE6 text18 CODE >442:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BE7 text17 CODE >447:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BE7 text17 CODE >449:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BEB text17 CODE >451:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BF4 text17 CODE >453:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BF7 text17 CODE >454:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D84 text16 CODE >786:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D84 text16 CODE >788:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D96 text16 CODE >790:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D99 text16 CODE >791:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DA2 text16 CODE >792:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DA5 text16 CODE >793:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DAE text16 CODE >788:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+359 text15 CODE >638:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+359 text15 CODE >641:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+365 text15 CODE >642:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+371 text15 CODE >643:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+37D text15 CODE >644:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+389 text15 CODE >645:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+395 text15 CODE >646:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+3A1 text15 CODE >647:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+3AD text15 CODE >648:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+3B9 text15 CODE >649:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+3C5 text15 CODE >650:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+3D1 text15 CODE >651:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+3DD text15 CODE >652:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+3E9 text15 CODE >653:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+3F5 text15 CODE >654:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+401 text15 CODE >655:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+40D text15 CODE >656:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+419 text15 CODE >657:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+42B text15 CODE >659:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+433 text15 CODE >660:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+43E text15 CODE >661:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+442 text15 CODE >663:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BB8 text14 CODE >873:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BB8 text14 CODE >876:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BBB text14 CODE >877:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BC3 text14 CODE >878:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+BC4 text14 CODE >879:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B88 text13 CODE >1056:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B88 text13 CODE >1059:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B8F text13 CODE >1061:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+C8F text12 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+C8F text12 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+C93 text12 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+C95 text12 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+C9B text12 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+CA2 text12 CODE >48:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+CA9 text12 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+CAD text12 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
+BC6 text11 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\isdigit.c
+BC9 text11 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\isdigit.c
+747 text10 CODE >5:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+74A text10 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+751 text10 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+755 text10 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+75C text10 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+75E text10 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+75F text10 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+765 text10 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+76A text10 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+770 text10 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+774 text10 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+77E text10 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+7A1 text10 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+7A2 text10 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+7A7 text10 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+7B3 text10 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
+D54 text9 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eewrite.c
+D57 text9 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eewrite.c
+C0A text8 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
+C0D text8 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
+C0D text8 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
+C14 text8 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
+C16 text8 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
+C1D text8 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
+D28 text7 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
+D2B text7 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
+D2F text7 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
+D39 text7 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
+D3D text7 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
+D3E text7 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
+E38 text6 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
+E3B text6 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
+E3B text6 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
+E46 text6 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
+E5A text6 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
+E70 text6 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
+E74 text6 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
+E78 text6 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
+E79 text6 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
+7B8 text5 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
+7BB text5 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
+7BC text5 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
+7D8 text5 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
+7DA text5 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
+7F3 text5 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
+7FC text5 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
 48 text4 CODE >218:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 48 text4 CODE >221:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 5F text4 CODE >223:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 65 text4 CODE >224:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 69 text4 CODE >225:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-72 text4 CODE >226:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-73 text4 CODE >227:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-8A text4 CODE >229:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-90 text4 CODE >230:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-94 text4 CODE >231:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-9D text4 CODE >232:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-9E text4 CODE >233:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-AD text4 CODE >235:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-B0 text4 CODE >236:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-B9 text4 CODE >237:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-BC text4 CODE >238:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C3 text4 CODE >239:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C4 text4 CODE >240:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D3 text4 CODE >242:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-D6 text4 CODE >243:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-DF text4 CODE >244:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E2 text4 CODE >245:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-E9 text4 CODE >246:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-EA text4 CODE >247:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F9 text4 CODE >250:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-104 text4 CODE >251:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-10B text4 CODE >252:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-10C text4 CODE >253:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-11B text4 CODE >256:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-126 text4 CODE >257:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-12D text4 CODE >258:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-12E text4 CODE >259:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-13D text4 CODE >261:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-142 text4 CODE >262:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-147 text4 CODE >263:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-14F text4 CODE >265:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-158 text4 CODE >266:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-159 text4 CODE >267:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-168 text4 CODE >269:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-16D text4 CODE >270:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-175 text4 CODE >272:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-17E text4 CODE >274:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-17F text4 CODE >275:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-18E text4 CODE >277:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-193 text4 CODE >278:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-195 text4 CODE >279:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-195 text4 CODE >280:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-197 text4 CODE >281:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-198 text4 CODE >283:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1A7 text4 CODE >286:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1B2 text4 CODE >287:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1B9 text4 CODE >289:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1BA text4 CODE >291:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1C9 text4 CODE >296:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1D5 text4 CODE >297:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1D9 text4 CODE >298:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1E2 text4 CODE >299:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-1EC text4 CODE >302:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-79A text3 CODE >197:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-79A text3 CODE >199:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7A9 text3 CODE >201:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7AF text3 CODE >202:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7B2 text3 CODE >203:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7B4 text3 CODE >204:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7C1 text3 CODE >206:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7C8 text3 CODE >204:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7CF text3 CODE >210:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7DD text3 CODE >211:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7E3 text3 CODE >208:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7EC text3 CODE >214:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7F6 text3 CODE >215:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7FC text3 CODE >216:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-7FF text3 CODE >217:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FA4 text2 CODE >171:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FA4 text2 CODE >173:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FB3 text2 CODE >177:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FB9 text2 CODE >178:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FC3 text2 CODE >179:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FD5 text2 CODE >180:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FDB text2 CODE >181:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FE4 text2 CODE >183:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FE9 text2 CODE >185:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FEE text2 CODE >190:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FF4 text2 CODE >191:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FFB text2 CODE >192:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FFF text2 CODE >193:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F51 text1 CODE >532:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F51 text1 CODE >535:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F54 text1 CODE >536:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F55 text1 CODE >537:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F56 text1 CODE >538:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F57 text1 CODE >541:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F5A text1 CODE >542:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F5B text1 CODE >543:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F5C text1 CODE >544:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F60 text1 CODE >545:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F62 text1 CODE >546:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F64 text1 CODE >547:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F67 text1 CODE >548:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F68 text1 CODE >549:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F69 text1 CODE >550:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F6A text1 CODE >551:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F6D text1 CODE >552:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F6E text1 CODE >553:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F71 text1 CODE >556:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F73 text1 CODE >557:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F74 text1 CODE >558:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F77 text1 CODE >559:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F78 text1 CODE >560:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F7B text1 CODE >561:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F7E text1 CODE >564:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F81 text1 CODE >565:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F82 text1 CODE >568:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F83 text1 CODE >569:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F84 text1 CODE >570:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F87 text1 CODE >571:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F88 text1 CODE >572:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F89 text1 CODE >575:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F8D text1 CODE >576:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F8F text1 CODE >577:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F91 text1 CODE >578:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F92 text1 CODE >581:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F93 text1 CODE >582:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F94 text1 CODE >583:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F97 text1 CODE >584:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F98 text1 CODE >585:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F99 text1 CODE >588:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-F9D text1 CODE >589:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FA1 text1 CODE >590:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-FA3 text1 CODE >591:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6AB maintext CODE >119:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6AB maintext CODE >122:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6B0 maintext CODE >124:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6BF maintext CODE >125:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6C4 maintext CODE >129:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6CC maintext CODE >131:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6D1 maintext CODE >133:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6D9 maintext CODE >135:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6DE maintext CODE >138:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6E6 maintext CODE >140:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6EB maintext CODE >142:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6F3 maintext CODE >144:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-6F8 maintext CODE >147:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-700 maintext CODE >149:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-705 maintext CODE >152:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-70D maintext CODE >154:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-712 maintext CODE >159:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-717 maintext CODE >160:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-71C maintext CODE >161:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-723 maintext CODE >162:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-728 maintext CODE >127:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-C06 clrtext CODE >746:C:\Users\tellw\AppData\Local\Temp\scfo.
-C06 clrtext CODE >747:C:\Users\tellw\AppData\Local\Temp\scfo.
-C07 clrtext CODE >748:C:\Users\tellw\AppData\Local\Temp\scfo.
-C07 clrtext CODE >749:C:\Users\tellw\AppData\Local\Temp\scfo.
-C08 clrtext CODE >750:C:\Users\tellw\AppData\Local\Temp\scfo.
-C09 clrtext CODE >751:C:\Users\tellw\AppData\Local\Temp\scfo.
-C0A clrtext CODE >752:C:\Users\tellw\AppData\Local\Temp\scfo.
-C0B clrtext CODE >753:C:\Users\tellw\AppData\Local\Temp\scfo.
-C0C clrtext CODE >754:C:\Users\tellw\AppData\Local\Temp\scfo.
-C0D clrtext CODE >755:C:\Users\tellw\AppData\Local\Temp\scfo.
+74 text4 CODE >226:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+7D text4 CODE >227:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+7E text4 CODE >228:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+95 text4 CODE >230:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+9B text4 CODE >231:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+9F text4 CODE >232:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+AA text4 CODE >233:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B3 text4 CODE >234:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B4 text4 CODE >235:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+CB text4 CODE >237:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D1 text4 CODE >238:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+D5 text4 CODE >239:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DE text4 CODE >240:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+DF text4 CODE >241:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F6 text4 CODE >243:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+FC text4 CODE >244:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+100 text4 CODE >245:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+109 text4 CODE >246:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+10A text4 CODE >247:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+119 text4 CODE >249:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+11C text4 CODE >250:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+125 text4 CODE >251:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+128 text4 CODE >252:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+12F text4 CODE >253:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+130 text4 CODE >254:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+13F text4 CODE >256:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+142 text4 CODE >257:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+14B text4 CODE >258:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+14E text4 CODE >259:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+155 text4 CODE >260:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+156 text4 CODE >261:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+165 text4 CODE >264:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+170 text4 CODE >265:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+177 text4 CODE >266:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+178 text4 CODE >267:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+187 text4 CODE >270:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+192 text4 CODE >271:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+199 text4 CODE >272:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+19A text4 CODE >273:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1A9 text4 CODE >275:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1AE text4 CODE >276:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1B3 text4 CODE >277:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1BB text4 CODE >279:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1C4 text4 CODE >280:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1C5 text4 CODE >281:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1D4 text4 CODE >283:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1D9 text4 CODE >284:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1E1 text4 CODE >286:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1EA text4 CODE >288:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1EB text4 CODE >289:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1FA text4 CODE >291:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+1FF text4 CODE >292:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+201 text4 CODE >293:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+201 text4 CODE >294:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+203 text4 CODE >295:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+204 text4 CODE >297:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+213 text4 CODE >300:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+21E text4 CODE >301:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+225 text4 CODE >303:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+226 text4 CODE >305:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+235 text4 CODE >310:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+241 text4 CODE >311:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+245 text4 CODE >312:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+24E text4 CODE >313:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+258 text4 CODE >316:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F2B text3 CODE >197:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F2B text3 CODE >199:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F3A text3 CODE >201:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F40 text3 CODE >202:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F43 text3 CODE >203:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F45 text3 CODE >204:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F52 text3 CODE >206:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F59 text3 CODE >204:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F60 text3 CODE >210:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F6E text3 CODE >211:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F74 text3 CODE >208:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F7D text3 CODE >214:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F87 text3 CODE >215:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F8D text3 CODE >216:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F90 text3 CODE >217:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+ECF text2 CODE >171:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+ECF text2 CODE >173:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EDE text2 CODE >177:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EE4 text2 CODE >178:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EEE text2 CODE >179:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F00 text2 CODE >180:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F06 text2 CODE >181:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F0F text2 CODE >183:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F14 text2 CODE >185:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F19 text2 CODE >190:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F1F text2 CODE >191:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F26 text2 CODE >192:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+F2A text2 CODE >193:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E7C text1 CODE >546:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E7C text1 CODE >549:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E7F text1 CODE >550:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E80 text1 CODE >551:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E81 text1 CODE >552:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E82 text1 CODE >555:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E85 text1 CODE >556:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E86 text1 CODE >557:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E87 text1 CODE >558:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E8B text1 CODE >559:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E8D text1 CODE >560:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E8F text1 CODE >561:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E92 text1 CODE >562:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E93 text1 CODE >563:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E94 text1 CODE >564:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E95 text1 CODE >565:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E98 text1 CODE >566:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E99 text1 CODE >567:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E9C text1 CODE >570:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E9E text1 CODE >571:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+E9F text1 CODE >572:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EA2 text1 CODE >573:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EA3 text1 CODE >574:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EA6 text1 CODE >575:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EA9 text1 CODE >578:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EAC text1 CODE >579:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EAD text1 CODE >582:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EAE text1 CODE >583:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EAF text1 CODE >584:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EB2 text1 CODE >585:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EB3 text1 CODE >586:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EB4 text1 CODE >589:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EB8 text1 CODE >590:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EBA text1 CODE >591:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EBC text1 CODE >592:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EBD text1 CODE >595:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EBE text1 CODE >596:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EBF text1 CODE >597:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EC2 text1 CODE >598:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EC3 text1 CODE >599:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EC4 text1 CODE >602:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+EC8 text1 CODE >603:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+ECC text1 CODE >604:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+ECE text1 CODE >605:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+6C9 maintext CODE >119:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+6C9 maintext CODE >122:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+6CE maintext CODE >124:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+6DD maintext CODE >125:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+6E2 maintext CODE >129:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+6EA maintext CODE >131:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+6EF maintext CODE >133:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+6F7 maintext CODE >135:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+6FC maintext CODE >138:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+704 maintext CODE >140:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+709 maintext CODE >142:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+711 maintext CODE >144:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+716 maintext CODE >147:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+71E maintext CODE >149:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+723 maintext CODE >152:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+72B maintext CODE >154:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+730 maintext CODE >159:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+735 maintext CODE >160:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+73A maintext CODE >161:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+741 maintext CODE >162:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+746 maintext CODE >127:C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+B77 clrtext CODE >784:C:\Users\tellw\AppData\Local\Temp\sfes.
+B77 clrtext CODE >785:C:\Users\tellw\AppData\Local\Temp\sfes.
+B78 clrtext CODE >786:C:\Users\tellw\AppData\Local\Temp\sfes.
+B78 clrtext CODE >787:C:\Users\tellw\AppData\Local\Temp\sfes.
+B79 clrtext CODE >788:C:\Users\tellw\AppData\Local\Temp\sfes.
+B7A clrtext CODE >789:C:\Users\tellw\AppData\Local\Temp\sfes.
+B7B clrtext CODE >790:C:\Users\tellw\AppData\Local\Temp\sfes.
+B7C clrtext CODE >791:C:\Users\tellw\AppData\Local\Temp\sfes.
+B7D clrtext CODE >792:C:\Users\tellw\AppData\Local\Temp\sfes.
+B7E clrtext CODE >793:C:\Users\tellw\AppData\Local\Temp\sfes.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -632,7 +654,7 @@ C0D clrtext CODE >755:C:\Users\tellw\AppData\Local\Temp\scfo.
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
 ___latbits 2 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_ofi1_OperationMode 182E 0 CODE 0 text38 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_ofi1_OperationMode 1710 0 CODE 0 text38 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_DelayDs 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __LdataBANK0 0 0 ABS 0 dataBANK0 -
 __LdataBANK1 0 0 ABS 0 dataBANK1 -
@@ -657,19 +679,19 @@ _WR C61 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.produc
 __Hstrings 0 0 ABS 0 strings -
 _RBIF 58 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _WREN C62 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-___sp 0 0 STACK 2 stack C:\Users\tellw\AppData\Local\Temp\scfo.obj
-_atoi E52 0 CODE 0 text10 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_init 1EA2 0 CODE 0 text1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_main D56 0 CODE 0 maintext dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\tellw\AppData\Local\Temp\sfes.obj
+_atoi E8E 0 CODE 0 text10 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_init 1CF8 0 CODE 0 text1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_main D92 0 CODE 0 maintext dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 btemp 7E 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_Mode_0 17FC 0 CODE 0 text30 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_Mode_1 19C2 0 CODE 0 text29 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_Mode_2 1872 0 CODE 0 text28 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_Mode_3 198E 0 CODE 0 text27 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_Mode_4 18EC 0 CODE 0 text18 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_Mode_5 190E 0 CODE 0 text17 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_Mode_0 16DE 0 CODE 0 text30 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_Mode_1 18A4 0 CODE 0 text29 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_Mode_2 1754 0 CODE 0 text28 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_Mode_3 1870 0 CODE 0 text27 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_Mode_4 17CE 0 CODE 0 text18 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_Mode_5 17F0 0 CODE 0 text17 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 SetRFMode@mode 2C 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-start 24 0 CODE 0 init C:\Users\tellw\AppData\Local\Temp\scfo.obj
+start 24 0 CODE 0 init C:\Users\tellw\AppData\Local\Temp\sfes.obj
 __CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_atoi 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_init 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -679,39 +701,39 @@ WriteSPI@buffer 21 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10
 RegisterRead@adress 26 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 ?___wmul 20 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _intNumberOfBlinks D7 0 BANK1 1 dataBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_TransiverInit 7AE 0 CODE 0 text15 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_TransiverInit 886 0 CODE 0 text15 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _OPTION_REGbits 81 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_FindChannel 3DA 0 CODE 0 text21 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_FindChannel 4B2 0 CODE 0 text21 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __LidataBANK1 0 0 ABS 0 idataBANK1 -
-__end_of_WriteFIFO 1858 0 CODE 0 text20 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_WriteFIFO 173A 0 CODE 0 text20 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Hpowerup 0 0 CODE 0 powerup -
 TransmittedDataHandler@slask 3D 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_TransiverReadFIFO 1000 0 CODE 0 text3 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_TransiverReadFIFO 1F22 0 CODE 0 text3 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_WriteFIFO 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 TransmittedDataHandler@value 5D 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-i1_OperationMode 181C 0 CODE 0 text38 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_ReadFIFO 188E 0 CODE 0 text14 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-intlevel0 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\scfo.obj
-intlevel1 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\scfo.obj
-intlevel2 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\scfo.obj
-intlevel3 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\scfo.obj
-intlevel4 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\scfo.obj
-intlevel5 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\scfo.obj
+i1_OperationMode 16FE 0 CODE 0 text38 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_ReadFIFO 1770 0 CODE 0 text14 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
+intlevel1 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
+intlevel2 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
+intlevel3 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
+intlevel4 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
+intlevel5 0 0 CODE 0 functab C:\Users\tellw\AppData\Local\Temp\sfes.obj
 _TransmittedDataHandler 90 0 CODE 0 text4 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
-_timerFunction 190E 0 CODE 0 text32 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_timerFunction 17F0 0 CODE 0 text32 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _OSCCONbits 8F 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 wtemp0 7E 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Hfunctab 0 0 CODE 0 functab -
 DarknessCheck@darknessValue 29 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_ReadFIFO 18AA 0 CODE 0 text14 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_WriteFIFO 1840 0 CODE 0 text20 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_OperationMode 182E 0 CODE 0 text13 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_ReadFIFO 178C 0 CODE 0 text14 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_WriteFIFO 1722 0 CODE 0 text20 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_OperationMode 1710 0 CODE 0 text13 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Hclrtext 0 0 ABS 0 clrtext -
 ___wmul@multiplicand 22 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 RegisterRead@value 25 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_DelayDs 1A3C 0 CODE 0 text36 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_DelayDs 191E 0 CODE 0 text36 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _ADRESH 1E 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _ChannelP C20 0 STRING 0 strings dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _ChannelR C3A 0 STRING 0 strings dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -722,7 +744,7 @@ _SSPCONbits 14 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X
 RegisterSet@adress 2A 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _intBlinkCycle 68 0 BANK0 1 bssBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_ReadSPI 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of___wmul 1A82 0 CODE 0 text12 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of___wmul 1964 0 CODE 0 text12 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __end_of_ChannelP C3A 0 STRING 0 strings dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __end_of_ChannelR C54 0 STRING 0 strings dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __end_of_ChannelS C6E 0 STRING 0 strings dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -732,77 +754,77 @@ _EEDATA 10C 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.pr
 __CFG_CP$ON 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lmaintext 0 0 ABS 0 maintext -
 __size_of_isdigit 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_AnalogValue 1ACA 0 CODE 0 text35 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_RegisterSet 19C2 0 CODE 0 text23 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_AnalogValue 19AC 0 CODE 0 text35 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_RegisterSet 18A4 0 CODE 0 text23 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 eeprom_write@addr 22 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _intMinuteCounter B7 0 BANK1 1 bssBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 ?_strlen 20 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_strncmp 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_SetRFMode BC8 0 CODE 0 text22 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_SetRFMode 2000 0 CODE 0 text22 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 ReadFIFO@value 24 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-TransmittedDataHandler@slask_700 45 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-TransmittedDataHandler@slask_709 4D 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-TransmittedDataHandler@slask_712 55 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+TransmittedDataHandler@slask_704 45 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+TransmittedDataHandler@slask_713 4D 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+TransmittedDataHandler@slask_716 55 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_Blink 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_SetRFMode 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_eeprom_read 1A82 0 CODE 0 text34 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_eeprom_read 1964 0 CODE 0 text34 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_LightWithSensController 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_TransiverReadFIFO F34 0 CODE 0 text3 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_TransiverReadFIFO 1E56 0 CODE 0 text3 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 WriteSPI@databyte 22 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_ofi1_OperationMode 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _WPUBbits 95 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_Mode_0 17F4 0 CODE 0 text30 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_Mode_1 198E 0 CODE 0 text29 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_Mode_2 1858 0 CODE 0 text28 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_Mode_3 195C 0 CODE 0 text27 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_Mode_4 18CA 0 CODE 0 text18 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_Mode_5 18EC 0 CODE 0 text17 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_Mode_0 16D6 0 CODE 0 text30 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_Mode_1 1870 0 CODE 0 text29 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_Mode_2 173A 0 CODE 0 text28 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_Mode_3 183E 0 CODE 0 text27 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_Mode_4 17AC 0 CODE 0 text18 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_Mode_5 17CE 0 CODE 0 text17 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 start_initialization 2A 0 CODE 0 cinit dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_SetRFMode AEA 0 CODE 0 text22 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_SetRFMode 1F22 0 CODE 0 text22 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_timerFunction 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 SetRFMode@mcparam0_read 2D 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_TransmittString 952 0 CODE 0 text19 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-clear_ram0 180C 0 CODE 0 clrtext dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_TransmittString A2A 0 CODE 0 text19 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+clear_ram0 16EE 0 CODE 0 clrtext dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _SSPBUF 13 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_OperationMode 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _TMR1IF 60 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _TMR1ON 80 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _intHalfSecondCounter B5 0 BANK1 1 bssBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_ReadSPI 180C 0 CODE 0 text25 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-___int_sp 0 0 STACK 2 stack C:\Users\tellw\AppData\Local\Temp\scfo.obj
+__end_of_ReadSPI 16EE 0 CODE 0 text25 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\tellw\AppData\Local\Temp\sfes.obj
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
 __Hbank3 0 0 ABS 0 bank3 -
 __Hcinit 90 0 CODE 0 cinit -
-__end_of_strchr 195C 0 CODE 0 text8 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_strlen 1BC6 0 CODE 0 text7 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_strstr 1EA2 0 CODE 0 text5 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_strchr 183E 0 CODE 0 text8 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_strlen 1AA8 0 CODE 0 text7 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_strstr FFC 0 CODE 0 text5 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Hidloc 0 0 IDLOC 0 idloc -
 __Hstack 0 0 STACK 2 stack -
 __stringbase C1E 0 STRING 0 strings dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_tc_int AEA 0 CODE 0 text37 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_tc_int BC2 0 CODE 0 text37 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_Mode_0 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_Mode_1 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_Mode_2 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_Mode_3 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_Mode_4 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_Mode_5 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_timerFunction 1932 0 CODE 0 text32 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_timerFunction 1814 0 CODE 0 text32 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Hmaintext 0 0 ABS 0 maintext -
 __Hcommon 0 0 ABS 0 common -
 __Hconfig 4010 0 CONFIG 0 config -
-__end_of_TransmittedDataHandler 3DA 0 CODE 0 text4 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_TransmittedDataHandler 4B2 0 CODE 0 text4 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lbank0 0 0 ABS 0 bank0 -
 __Lbank1 0 0 ABS 0 bank1 -
 __Lbank2 0 0 ABS 0 bank2 -
 __Lbank3 0 0 ABS 0 bank3 -
-__end_of_isdigit 18CA 0 CODE 0 text11 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_isdigit 17AC 0 CODE 0 text11 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lcinit 2A 0 CODE 0 cinit -
-__end_of_OperationMode 1840 0 CODE 0 text13 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_OperationMode 1722 0 CODE 0 text13 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 TimerCounter@i 73 0 COMMON 1 cstackCOMMON dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lidloc 0 0 IDLOC 0 idloc -
 __Lstack 0 0 STACK 2 stack -
@@ -810,9 +832,9 @@ _PORTAbits 5 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.p
 _PORTBbits 6 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _PORTCbits 7 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _intClockTimer A0 0 BANK1 1 bssBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_strncmp 1E16 0 CODE 0 text6 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_strncmp 1CF8 0 CODE 0 text6 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _channelFound AF 0 BANK1 1 bssBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_TransiverToReceive 2000 0 CODE 0 text2 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_TransiverToReceive 1E56 0 CODE 0 text2 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _INTCONbits B 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Habs1 0 0 ABS 0 abs1 -
 __Hcode 0 0 ABS 0 code -
@@ -830,8 +852,8 @@ __Lsfr1 0 0 ABS 0 sfr1 -
 __Lsfr2 0 0 ABS 0 sfr2 -
 __Lsfr3 0 0 ABS 0 sfr3 -
 __Ltext 0 0 ABS 0 text -
-_TransmittString 7AE 0 CODE 0 text19 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-___wmul 1A3C 0 CODE 0 text12 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_TransmittString 886 0 CODE 0 text19 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+___wmul 191E 0 CODE 0 text12 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 _bTimerComplete AA 0 BANK1 1 bssBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
@@ -842,18 +864,18 @@ __S2 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 atoi@sign 2A 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 DelayDs@i 24 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_FindChannel 5DA 0 CODE 0 text21 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_FindChannel 6B2 0 CODE 0 text21 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 saved_w 7E 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __CFG_FOSC$INTRC_NOCLKOUT 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_RegisterRead BC8 0 CODE 0 text24 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_TransiverToReceive 1F48 0 CODE 0 text2 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_RegisterRead BC2 0 CODE 0 text24 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_TransiverToReceive 1D9E 0 CODE 0 text2 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _TransmittedString B9 0 BANK1 1 bssBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 eeprom_write@value 20 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_DelayDs 19F6 0 CODE 0 text36 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_DelayDs 18D8 0 CODE 0 text36 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lintentry 8 0 CODE 0 intentry -
 __stringtab C00 0 STRING 0 strings dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-reset_vec 0 0 CODE 0 reset_vec C:\Users\tellw\AppData\Local\Temp\scfo.obj
-_eeprom_write 1BC6 0 CODE 0 text9 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\tellw\AppData\Local\Temp\sfes.obj
+_eeprom_write 1AA8 0 CODE 0 text9 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 strlen@s 26 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __pdataBANK0 6F 0 BANK0 1 dataBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __pdataBANK1 D7 0 BANK1 1 dataBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -865,38 +887,38 @@ __LbssBANK1 0 0 ABS 0 bssBANK1 -
 __LbssBANK3 0 0 ABS 0 bssBANK3 -
 _PIE1bits 8C 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_WriteSPI 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext10 E52 0 CODE 0 text10 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext11 18AA 0 CODE 0 text11 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext12 1A3C 0 CODE 0 text12 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext13 182E 0 CODE 0 text13 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext14 188E 0 CODE 0 text14 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext15 5DA 0 CODE 0 text15 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext16 1C26 0 CODE 0 text16 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext17 18EC 0 CODE 0 text17 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext18 18CA 0 CODE 0 text18 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext19 7AE 0 CODE 0 text19 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext20 1840 0 CODE 0 text20 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext21 3DA 0 CODE 0 text21 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext22 AEA 0 CODE 0 text22 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext23 19C2 0 CODE 0 text23 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext24 BC8 0 CODE 0 text24 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext25 17FC 0 CODE 0 text25 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext26 1872 0 CODE 0 text26 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext27 195C 0 CODE 0 text27 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext28 1858 0 CODE 0 text28 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext29 198E 0 CODE 0 text29 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext30 17F4 0 CODE 0 text30 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext31 1C8C 0 CODE 0 text31 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext32 190E 0 CODE 0 text32 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext33 1B1C 0 CODE 0 text33 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext34 1A82 0 CODE 0 text34 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext35 1ACA 0 CODE 0 text35 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext36 19F6 0 CODE 0 text36 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext37 952 0 CODE 0 text37 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext38 181C 0 CODE 0 text38 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext39 1D0A 0 CODE 0 text39 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext10 E8E 0 CODE 0 text10 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext11 178C 0 CODE 0 text11 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext12 191E 0 CODE 0 text12 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext13 1710 0 CODE 0 text13 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext14 1770 0 CODE 0 text14 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext15 6B2 0 CODE 0 text15 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext16 1B08 0 CODE 0 text16 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext17 17CE 0 CODE 0 text17 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext18 17AC 0 CODE 0 text18 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext19 886 0 CODE 0 text19 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext20 1722 0 CODE 0 text20 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext21 4B2 0 CODE 0 text21 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext22 1F22 0 CODE 0 text22 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext23 18A4 0 CODE 0 text23 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext24 BC2 0 CODE 0 text24 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext25 16DE 0 CODE 0 text25 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext26 1754 0 CODE 0 text26 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext27 183E 0 CODE 0 text27 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext28 173A 0 CODE 0 text28 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext29 1870 0 CODE 0 text29 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext30 16D6 0 CODE 0 text30 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext31 1B6E 0 CODE 0 text31 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext32 17F0 0 CODE 0 text32 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext33 19FE 0 CODE 0 text33 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext34 1964 0 CODE 0 text34 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext35 19AC 0 CODE 0 text35 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext36 18D8 0 CODE 0 text36 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext37 A2A 0 CODE 0 text37 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext38 16FE 0 CODE 0 text38 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext39 1BEC 0 CODE 0 text39 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 strlen@cp 27 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__pmaintext D56 0 CODE 0 maintext dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__pmaintext D92 0 CODE 0 maintext dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 ?_atoi 26 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 400E 0 CONFIG 0 config -
@@ -907,27 +929,27 @@ __size_of_RegisterRead 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_cod
 WriteFIFO@Data 23 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 ___wmul@multiplier 20 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 TransmittString@dataString 35 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_DarknessCheck 1B1C 0 CODE 0 text33 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_AnalogValue 1B1C 0 CODE 0 text35 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_RegisterSet 19F6 0 CODE 0 text23 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_DarknessCheck 19FE 0 CODE 0 text33 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_AnalogValue 19FE 0 CODE 0 text35 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_RegisterSet 18D8 0 CODE 0 text23 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_TransmittString 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_eeprom_write 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_strchr 1932 0 CODE 0 text8 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_strlen 1B6E 0 CODE 0 text7 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_strstr 1E16 0 CODE 0 text5 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_tc_int 952 0 CODE 0 text37 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_strchr 1814 0 CODE 0 text8 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_strlen 1A50 0 CODE 0 text7 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_strstr F70 0 CODE 0 text5 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_tc_int A2A 0 CODE 0 text37 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _bValueFromPot 6F 0 BANK0 1 dataBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-stackhi 0 0 ABS 0 - C:\Users\tellw\AppData\Local\Temp\scfo.obj
-stacklo 0 0 ABS 0 - C:\Users\tellw\AppData\Local\Temp\scfo.obj
+stackhi 0 0 ABS 0 - C:\Users\tellw\AppData\Local\Temp\sfes.obj
+stacklo 0 0 ABS 0 - C:\Users\tellw\AppData\Local\Temp\sfes.obj
 strstr@s1 32 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 strstr@s2 2E 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_eeprom_read 1ACA 0 CODE 0 text34 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_eeprom_read 19AC 0 CODE 0 text34 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _ADCON0bits 1F 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _addressDarknessValue 7C 0 COMMON 1 bssCOMMON dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _ADCON1bits 9F 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __end_of__stringtab C20 0 STRING 0 strings dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_RegisterRead C00 0 CODE 0 text24 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_RegisterRead BFA 0 CODE 0 text24 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
@@ -937,12 +959,12 @@ timerFunction@intSetSeconds 22 0 BANK0 1 cstackBANK0 dist/default/production\Bus
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
 _PIR1bits C 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lend_init 24 0 CODE 0 end_init -
-_TimerCounter 1D0A 0 CODE 0 text39 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_TimerCounter 1BEC 0 CODE 0 text39 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 OperationMode@bracketStatus 21 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_eeprom_write 1C26 0 CODE 0 text9 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_eeprom_write 1B08 0 CODE 0 text9 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 end_of_initialization 88 0 CODE 0 cinit dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_WriteSPI 1872 0 CODE 0 text26 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_WriteSPI 1754 0 CODE 0 text26 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Hintentry 24 0 CODE 0 intentry -
 __Lstrings 0 0 ABS 0 strings -
 __Hreset_vec 6 0 CODE 0 reset_vec -
@@ -951,8 +973,8 @@ FindChannel@i 33 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
 __HbssBANK1 0 0 ABS 0 bssBANK1 -
 __HbssBANK3 0 0 ABS 0 bssBANK3 -
-__end_of_WriteSPI 188E 0 CODE 0 text26 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_ReadSPI 17FC 0 CODE 0 text25 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_WriteSPI 1770 0 CODE 0 text26 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_ReadSPI 16DE 0 CODE 0 text25 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 strchr@chr 20 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 strchr@ptr 22 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_strchr 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -962,51 +984,51 @@ __size_of_FindChannel 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code
 __size_of_tc_int 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 TransmittString@i 3A 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 i1OperationMode@bracketStatus 71 0 COMMON 1 cstackCOMMON dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext1 1EA2 0 CODE 0 text1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext2 1F48 0 CODE 0 text2 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext3 F34 0 CODE 0 text3 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext1 1CF8 0 CODE 0 text1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext2 1D9E 0 CODE 0 text2 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext3 1E56 0 CODE 0 text3 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __ptext4 90 0 CODE 0 text4 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext5 1E16 0 CODE 0 text5 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext6 1D8E 0 CODE 0 text6 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext7 1B6E 0 CODE 0 text7 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext8 1932 0 CODE 0 text8 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__ptext9 1BC6 0 CODE 0 text9 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext5 F70 0 CODE 0 text5 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext6 1C70 0 CODE 0 text6 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext7 1A50 0 CODE 0 text7 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext8 1814 0 CODE 0 text8 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__ptext9 1AA8 0 CODE 0 text9 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
-_LightWithSensController 1C8C 0 CODE 0 text31 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_isdigit 18AA 0 CODE 0 text11 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_TransiverInit 5DA 0 CODE 0 text15 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_LightWithSensController 1D0A 0 CODE 0 text31 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_LightWithSensController 1B6E 0 CODE 0 text31 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_isdigit 178C 0 CODE 0 text11 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_TransiverInit 6B2 0 CODE 0 text15 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_LightWithSensController 1BEC 0 CODE 0 text31 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_TimerCounter 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lreset_vec 0 0 CODE 0 reset_vec -
-_strncmp 1D8E 0 CODE 0 text6 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_strncmp 1C70 0 CODE 0 text6 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __end_of__initialization 88 0 CODE 0 cinit dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 strncmp@len 29 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lfunctab 0 0 CODE 0 functab -
 __size_of_DarknessCheck 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__pidataBANK0 6 0 CODE 0 idataBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__pidataBANK1 17F0 0 CODE 0 idataBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__pidataBANK0 BFA 0 CODE 0 idataBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__pidataBANK1 FFC 0 CODE 0 idataBANK1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Lclrtext 0 0 ABS 0 clrtext -
 Blink@i 29 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 Blink@n 26 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_TimerCounter 1D8E 0 CODE 0 text39 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_TimerCounter 1C70 0 CODE 0 text39 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _ANSELbits 188 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _intSecondCounter 6A 0 BANK0 1 bssBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _bChannelFound 6C 0 BANK0 1 bssBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_TransiverReadFIFO 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __Hend_init 2A 0 CODE 0 end_init -
-__end_of_atoi F34 0 CODE 0 text10 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_init 1F48 0 CODE 0 text1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_main E52 0 CODE 0 maintext dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_Blink 1C8C 0 CODE 0 text16 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_atoi F70 0 CODE 0 text10 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_init 1D9E 0 CODE 0 text1 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_main E8E 0 CODE 0 maintext dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_Blink 1B6E 0 CODE 0 text16 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_TransiverToReceive 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 isdigit@c 21 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _ANSEL 188 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _CARRY 18 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_Blink 1C26 0 CODE 0 text16 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_Blink 1B08 0 CODE 0 text16 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _EEADR 10D 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-_isdigit$1084 20 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+_isdigit$1088 20 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _PORTA 5 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _PORTB 6 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _PORTC 7 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -1025,7 +1047,7 @@ interrupt_function 8 0 CODE 0 intentry dist/default/production\Bustel_Card_v10.0
 __size_of_AnalogValue 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _IOCBbits 96 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __size_of_RegisterSet 0 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
-__end_of_DarknessCheck 1B6E 0 CODE 0 text33 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
+__end_of_DarknessCheck 1A50 0 CODE 0 text33 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 eeprom_read@addr 21 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 _SSPSTATbits 94 0 ABS 0 - dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
 __pintentry 8 0 CODE 0 intentry dist/default/production\Bustel_Card_v10.0_code_v1.7.1.X.production.obj
@@ -1067,44 +1089,44 @@ FindChannel@cnt 31 0 BANK0 1 cstackBANK0 dist/default/production\Bustel_Card_v10
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text1 0 F51 1EA2 53 2
-text2 0 FA4 1F48 5C 2
-text5 0 F0B 1E16 46 2
-text6 0 EC7 1D8E 44 2
-text7 0 DB7 1B6E 2C 2
-text8 0 C99 1932 15 2
-text9 0 DE3 1BC6 30 2
-text11 0 C55 18AA 10 2
-text12 0 D1E 1A3C 23 2
-text13 0 C17 182E 9 2
-text14 0 C47 188E E 2
-text16 0 E13 1C26 33 2
-text17 0 C76 18EC 11 2
-text18 0 C65 18CA 11 2
-text20 0 C20 1840 C 2
-text23 0 CE1 19C2 1A 2
-text25 0 BFE 17FC 8 2
-text26 0 C39 1872 E 2
-text27 0 CAE 195C 19 2
-text28 0 C2C 1858 D 2
-text29 0 CC7 198E 1A 2
-text30 0 BFA 17F4 4 2
-text31 0 E46 1C8C 3F 2
-text32 0 C87 190E 12 2
-text33 0 D8E 1B1C 29 2
-text34 0 D41 1A82 24 2
-text35 0 D65 1ACA 29 2
-text36 0 CFB 19F6 23 2
-text38 0 C0E 181C 9 2
-text39 0 E85 1D0A 42 2
-maintext 0 6AB D56 155 2
+text1 0 E7C 1CF8 53 2
+text2 0 ECF 1D9E 5C 2
+text3 0 F2B 1E56 66 2
+text6 0 E38 1C70 44 2
+text7 0 D28 1A50 2C 2
+text8 0 C0A 1814 15 2
+text9 0 D54 1AA8 30 2
+text11 0 BC6 178C 10 2
+text12 0 C8F 191E 23 2
+text13 0 B88 1710 9 2
+text14 0 BB8 1770 E 2
+text16 0 D84 1B08 33 2
+text17 0 BE7 17CE 11 2
+text18 0 BD6 17AC 11 2
+text20 0 B91 1722 C 2
+text22 0 F91 1F22 6F 2
+text23 0 C52 18A4 1A 2
+text25 0 B6F 16DE 8 2
+text26 0 BAA 1754 E 2
+text27 0 C1F 183E 19 2
+text28 0 B9D 173A D 2
+text29 0 C38 1870 1A 2
+text30 0 B6B 16D6 4 2
+text31 0 DB7 1B6E 3F 2
+text32 0 BF8 17F0 12 2
+text33 0 CFF 19FE 29 2
+text34 0 CB2 1964 24 2
+text35 0 CD6 19AC 29 2
+text36 0 C6C 18D8 23 2
+text38 0 B7F 16FE 9 2
+text39 0 DF6 1BEC 42 2
+maintext 0 6C9 D92 137 2
 cstackCOMMON 1 70 70 E 1
 cstackBANK0 1 20 20 50 1
-intentry 0 4 8 5FC 2
-reset_vec 0 0 0 4 2
+intentry 0 4 8 5FA 2
+reset_vec 0 0 0 3 2
 bssBANK1 1 A0 A0 39 1
 bssBANK3 1 190 190 28 1
-idataBANK1 0 BF8 17F0 2 2
-strings 0 600 C00 AB 2
-clrtext 0 C06 180C 8 2
+strings 0 600 C00 C9 2
+clrtext 0 B77 16EE 8 2
 config 0 2007 400E 1 2
