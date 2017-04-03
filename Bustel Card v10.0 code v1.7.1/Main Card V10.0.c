@@ -65,6 +65,7 @@ BOOL bTransiverModeReceive = FALSE;	//Active state of the transiver for receive
 unsigned char TransmittedString[30];//Char containing the data received from the transiver
 BOOL bValueFromPot = TRUE;			//TODO
 int addressDarknessValue = 0;
+BOOL btnPush = FALSE;
 
 //Used in function for channel find
 //Values in arrays calculated from matlab for 868,32MHZ
@@ -222,27 +223,27 @@ void TransmittedDataHandler()
 	{
 		intBlinkCycle = 1;
 		intBlinkCounter = 0;
-		DelayDs(1);			//Delay between succesfull recived commands
-		TransmittString("N1BLINKSTARTED");
+		//DelayDs(10);			//Delay between succesfull recived commands
+		TransmittString("N1STARTED");
 	}
 	else if((strstr(TransmittedString, "N2BLINK")) && (OperationMode() == 7))				//Requested node == 2
 	{
 		intBlinkCycle = 1;
 		intBlinkCounter = 0;
-		DelayDs(1);			//Delay between succesfull recived commands
-		TransmittString("N2BLINKSTARTED");
+		//DelayDs(10);			//Delay between succesfull recived commands
+		TransmittString("N2STARTED");
 	}
-	else if((strstr(TransmittedString, "N1BLINKSTARTED")) && (OperationMode() == 4))			
+	else if((strstr(TransmittedString, "N1STARTED")) && (OperationMode() == 4))			
 	{
 		intBlinkCycle = 1;
 		intBlinkCounter = 0;
-		DelayDs(100);			//Delay between succesfull recived commands
+		//DelayDs(1);			//Delay between succesfull recived commands
 	}
-	else if((strstr(TransmittedString, "N2BLINKSTARTED")) && (OperationMode() == 5))			
+	else if((strstr(TransmittedString, "N2STARTED")) && (OperationMode() == 5))			
 	{
 		intBlinkCycle = 1;
 		intBlinkCounter = 0;
-		DelayDs(100);			//Delay between succesfull recived commands
+		//DelayDs(1);			//Delay between succesfull recived commands
 	}
 	else if((strstr(TransmittedString,"FLASHL")))
 	{
@@ -434,10 +435,13 @@ Light with PIR and lightsensor
 *******************************************************/
 void Mode_4()
 {
-	if(!iButton)
+	if(btnPush)
 	{
 		TransmittString("N1BLINK");
+        TransiverToReceive();
+        btnPush=FALSE;
 	}
+     
 	LightWithSensController();
 }
 /****************Mode description**********************
@@ -446,10 +450,13 @@ Light with PIR and lightsensor
 *******************************************************/
 void Mode_5()
 {
-	if(!iButton)
+	if(btnPush)
 		{
 			TransmittString("N2BLINK");
+            TransiverToReceive();
+            btnPush=FALSE;
 		}
+     
 		LightWithSensController();
 }
 /****************Function description**********************
@@ -929,7 +936,9 @@ void interrupt tc_int(void){
 		intBlinkCycle = 1;
 		intBlinkCounter = 0;
 
-	}
+	}else if(iButton==0)
+        btnPush=TRUE;
+        
 	if(TMR1IF ==1){
 		TMR1ON = 0;
 		TMR1H = 0x0B;
