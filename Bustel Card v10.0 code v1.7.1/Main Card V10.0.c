@@ -66,6 +66,7 @@ unsigned char TransmittedString[30];//Char containing the data received from the
 BOOL bValueFromPot = TRUE;			//TODO
 int addressDarknessValue = 0;
 BOOL btnPush = FALSE;
+int intLightOnTime = 120;
 
 //Used in function for channel find
 //Values in arrays calculated from matlab for 868,32MHZ
@@ -121,7 +122,11 @@ void main()
 { 
 	//Initiation of hardware...
 	init();
-
+	//Variable initiation
+	if(OperationMode() == 3){
+		intNumberOfBlinks = 180;	//Blinkcycle is 3 minutes, XTrafik req.
+		intLightOnTime = 180;		//Lightcycle is 3 minutes, XTrafik req.
+	}
 	__delay_ms(800);
 	TransiverInit();
 		
@@ -478,7 +483,7 @@ void LightWithSensController(void)
 			//Set the light to ON
 			oLEDLight = 1;
 			//Initiate timer
-			timerFunction(0,120);
+			timerFunction(0,intLightOnTime);
 		}
 
 		//Check if the time limit is reached
@@ -487,7 +492,7 @@ void LightWithSensController(void)
 			DarknessCheck();
 			if((bDark)&&(iPIR))
 			{
-				timerFunction(0,120);
+				timerFunction(0,intLightOnTime);
 			}
 			else
 				oLEDLight = 0;
