@@ -60,7 +60,7 @@ BOOL bDark;							//Bit is set when it's dark
 int intDarkCheckIntervall;			//The set time beween controls of the light sensor in minutes
 int intClockTimer[5];				//Timers made by Seb
 BOOL bTimerComplete[5];				//Flag for timer complete by Seb
-int intNumberOfBlinks = 600;		//Number of blinks for a blinkcycle
+int intNumberOfBlinks = 180;		//Number of blinks for a blinkcycle
 BOOL bTransiverModeReceive = FALSE;	//Active state of the transiver for receive
 unsigned char TransmittedString[30];//Char containing the data received from the transiver
 BOOL bValueFromPot = TRUE;			//TODO
@@ -952,15 +952,21 @@ void interrupt tc_int(void){
 		if((intBlinkCycle == 1)&&(intBlinkCounter<intNumberOfBlinks*2)){
 			intBlinkCounter++;
 			
-			if(oLEDBlink == 0)
+			if(oLEDBlink == 0){
 				oLEDBlink = 1;
-			else if(oLEDBlink == 1)
+				oLEDLight = 1;
+
+			}
+			else if(oLEDBlink == 1){				
 				oLEDBlink = 0;
+				oLEDLight = 0;
+			}
 		}
 		
 		else if((intBlinkCycle == 1)&&(intBlinkCounter >=intNumberOfBlinks*2)){
 			intBlinkCycle = 0;
 			oLEDBlink = 0;
+			oLEDLight = 0;
 		}
 
 		//Control of the counter counting seconds for the application
