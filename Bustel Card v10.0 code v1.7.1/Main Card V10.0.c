@@ -124,8 +124,8 @@ void main()
 	init();
 	//Variable initiation
 	if(OperationMode() == 3){
-		intNumberOfBlinks = 180;	//Blinkcycle is 3 minutes, XTrafik req.
-		intLightOnTime = 180;		//Lightcycle is 3 minutes, XTrafik req.
+		intNumberOfBlinks = 300;	//Blinkcycle is 3 minutes, XTrafik req.
+		intLightOnTime = 300;		//Lightcycle is 3 minutes, XTrafik req.
 	}
 	__delay_ms(800);
 	TransiverInit();
