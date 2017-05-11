@@ -3,99 +3,99 @@
 [d edition pro ]
 [d chip 16F886 ]
 [d frameptr 6 ]
-"59 C:\Users\gustav\Documents\Sorted\Git\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
-[e E1558 _BOOL `uc
+"59 C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+[e E1559 _BOOL `uc
 FALSE 0
 TRUE 1
 ]
-"120
+"121
 [v _main main `(v  1 e 1 0 ]
-"172
+"177
 [v _TransiverToReceive TransiverToReceive `(v  1 e 1 0 ]
-"198
+"203
 [v _TransiverReadFIFO TransiverReadFIFO `(v  1 e 1 0 ]
-"219
+"224
 [v _TransmittedDataHandler TransmittedDataHandler `(v  1 e 1 0 ]
-"337
+"342
 [v _TransmittString TransmittString `(v  1 e 1 0 ]
-"390
+"395
 [v _Mode_0 Mode_0 `(v  1 e 1 0 ]
-"398
+"403
 [v _Mode_1 Mode_1 `(v  1 e 1 0 ]
-"412
+"417
 [v _Mode_2 Mode_2 `(v  1 e 1 0 ]
-"423
+"428
 [v _Mode_3 Mode_3 `(v  1 e 1 0 ]
-"436
+"441
 [v _Mode_4 Mode_4 `(v  1 e 1 0 ]
-"451
+"456
 [v _Mode_5 Mode_5 `(v  1 e 1 0 ]
-"467
+"472
 [v _LightWithSensController LightWithSensController `(v  1 e 1 0 ]
-"518
+"523
 [v _timerFunction timerFunction `(uc  1 e 1 0 ]
-"540
+"545
 [v _TimerCounter TimerCounter `(v  1 e 1 0 ]
-"553
+"558
 [v _init init `(v  1 e 1 0 ]
-"616
+"621
 [v _DelayDs DelayDs `(v  1 e 1 0 ]
-"625
+"630
 [v _WriteSPI WriteSPI `(v  1 e 1 0 ]
-"637
+"642
 [v _ReadSPI ReadSPI `(uc  1 e 1 0 ]
-"645
+"650
 [v _TransiverInit TransiverInit `(v  1 e 1 0 ]
-"690
+"695
 [v _FindChannel FindChannel `(uc  1 e 1 0 ]
-"745
+"750
 [v _SetRFMode SetRFMode `(v  1 e 1 0 ]
-"793
+"798
 [v _Blink Blink `(v  1 e 1 0 ]
-"824
+"829
 [v _RegisterRead RegisterRead `(uc  1 e 1 0 ]
-"854
+"859
 [v _RegisterSet RegisterSet `(v  1 e 1 0 ]
-"880
+"885
 [v _ReadFIFO ReadFIFO `(uc  1 e 1 0 ]
-"907
+"912
 [v _WriteFIFO WriteFIFO `(v  1 e 1 0 ]
-"931
+"936
 [v _tc_int tc_int `II(v  1 e 1 0 ]
-"1004
+"1019
 [v _AnalogValue AnalogValue `(uc  1 e 1 0 ]
-"1031
+"1046
 [v _DarknessCheck DarknessCheck `(v  1 e 1 0 ]
-"1065
+"1080
 [v _OperationMode OperationMode `(uc  1 e 1 0 ]
 [v i1_OperationMode OperationMode `(uc  1 e 1 0 ]
-"5 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\atoi.c
+"5 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
 [v _atoi atoi `(i  1 e 2 0 ]
-"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+"62 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\float.c
 [v ___ftpack __ftpack `(f  1 e 3 0 ]
-"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+"86 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 3 0 ]
-"8 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\isdigit.c
+"8 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\isdigit.c
 [v _isdigit isdigit `(b  1 e 0 0 ]
-"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\strchr.c
+"4 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
 [v _strchr strchr `(*.4uc  1 e 1 0 ]
-"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\strlen.c
+"4 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
 [v _strlen strlen `(ui  1 e 2 0 ]
-"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\strncmp.c
+"4 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
 [v _strncmp strncmp `(i  1 e 2 0 ]
-"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\strstr.c
+"4 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
 [v _strstr strstr `(*.4uc  1 e 1 0 ]
-"15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul16.c
+"15 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
-"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eeprom.c
+"6 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeprom.c
 [v _eecpymem eecpymem `(v  1 e 1 0 ]
 "39
 [v _memcpyee memcpyee `(v  1 e 1 0 ]
-"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eeread.c
+"6 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
 [v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
-"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eewrite.c
+"6 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eewrite.c
 [v _eeprom_write eeprom_write `(v  1 e 1 0 ]
-"54 C:\Users\gustav\Documents\Sorted\Git\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+"54 C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 [v _intBlinkCycle intBlinkCycle `i  1 e 2 0 ]
 "55
 [v _intBlinkCounter intBlinkCounter `i  1 e 2 0 ]
@@ -106,34 +106,36 @@ TRUE 1
 "58
 [v _intMinuteCounter intMinuteCounter `i  1 e 2 0 ]
 "59
-[v _bDark bDark `E1558  1 e 1 0 ]
+[v _bDark bDark `E1559  1 e 1 0 ]
 "61
 [v _intClockTimer intClockTimer `[5]i  1 e 10 0 ]
 "62
-[v _bTimerComplete bTimerComplete `[5]E1558  1 e 5 0 ]
+[v _bTimerComplete bTimerComplete `[5]E1559  1 e 5 0 ]
 "63
 [v _intNumberOfBlinks intNumberOfBlinks `i  1 e 2 0 ]
 "64
-[v _bTransiverModeReceive bTransiverModeReceive `E1558  1 e 1 0 ]
+[v _bTransiverModeReceive bTransiverModeReceive `E1559  1 e 1 0 ]
 "65
 [v _TransmittedString TransmittedString `[30]uc  1 e 30 0 ]
 "66
-[v _bValueFromPot bValueFromPot `E1558  1 e 1 0 ]
+[v _bValueFromPot bValueFromPot `E1559  1 e 1 0 ]
 "67
 [v _addressDarknessValue addressDarknessValue `i  1 e 2 0 ]
 "68
-[v _btnPush btnPush `E1558  1 e 1 0 ]
-"72
-[v _ChannelR ChannelR `DCC[13]uc  1 e 13 0 ]
+[v _btnPush btnPush `E1559  1 e 1 0 ]
+"69
+[v _intLightOnTime intLightOnTime `i  1 e 2 0 ]
 "73
-[v _ChannelP ChannelP `DCC[13]uc  1 e 13 0 ]
+[v _ChannelR ChannelR `DCC[13]uc  1 e 13 0 ]
 "74
+[v _ChannelP ChannelP `DCC[13]uc  1 e 13 0 ]
+"75
 [v _ChannelS ChannelS `DCC[13]uc  1 e 13 0 ]
-"76
-[v _bChannelFound bChannelFound `E1558  1 e 1 0 ]
 "77
+[v _bChannelFound bChannelFound `E1559  1 e 1 0 ]
+"78
 [v _channelFound channelFound `i  1 e 2 0 ]
-"160 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic16f886.h
+"158 C:\Program Files (x86)\Microchip\xc8\v1.40\include\pic16f886.h
 [v _PORTA PORTA `VEuc  1 e 1 @5 ]
 [s S198 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
@@ -144,10 +146,10 @@ TRUE 1
 `uc 1 RA6 1 0 :1:6 
 `uc 1 RA7 1 0 :1:7 
 ]
-"177
+"175
 [u S207 . 1 `S198 1 . 1 0 ]
 [v _PORTAbits PORTAbits `VES207  1 e 1 @5 ]
-"221
+"219
 [v _PORTB PORTB `VEuc  1 e 1 @6 ]
 [s S68 . 1 `uc 1 RB0 1 0 :1:0 
 `uc 1 RB1 1 0 :1:1 
@@ -158,10 +160,10 @@ TRUE 1
 `uc 1 RB6 1 0 :1:6 
 `uc 1 RB7 1 0 :1:7 
 ]
-"238
+"236
 [u S77 . 1 `S68 1 . 1 0 ]
 [v _PORTBbits PORTBbits `VES77  1 e 1 @6 ]
-"282
+"280
 [v _PORTC PORTC `VEuc  1 e 1 @7 ]
 [s S138 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
@@ -172,7 +174,7 @@ TRUE 1
 `uc 1 RC6 1 0 :1:6 
 `uc 1 RC7 1 0 :1:7 
 ]
-"299
+"297
 [u S147 . 1 `S138 1 . 1 0 ]
 [v _PORTCbits PORTCbits `VES147  1 e 1 @7 ]
 [s S436 . 1 `uc 1 RBIF 1 0 :1:0 
@@ -184,7 +186,7 @@ TRUE 1
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-"392
+"390
 [s S445 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 TMR0IF 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -200,14 +202,14 @@ TRUE 1
 `uc 1 RCIF 1 0 :1:5 
 `uc 1 ADIF 1 0 :1:6 
 ]
-"462
+"460
 [u S629 . 1 `S621 1 . 1 0 ]
 [v _PIR1bits PIR1bits `VES629  1 e 1 @12 ]
-"563
+"561
 [v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
-"569
+"567
 [v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
-"575
+"573
 [v _T1CON T1CON `VEuc  1 e 1 @16 ]
 [s S516 . 1 `uc 1 TMR1ON 1 0 :1:0 
 `uc 1 TMR1CS 1 0 :1:1 
@@ -217,7 +219,7 @@ TRUE 1
 `uc 1 TMR1GE 1 0 :1:6 
 `uc 1 T1GINV 1 0 :1:7 
 ]
-"604
+"602
 [s S524 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T1INSYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -231,7 +233,7 @@ TRUE 1
 ]
 [u S535 . 1 `S516 1 . 1 0 `S524 1 . 1 0 `S532 1 . 1 0 ]
 [v _T1CONbits T1CONbits `VES535  1 e 1 @16 ]
-"744
+"742
 [v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
 [s S320 . 1 `uc 1 SSPM 1 0 :4:0 
 `uc 1 CKP 1 0 :1:4 
@@ -239,7 +241,7 @@ TRUE 1
 `uc 1 SSPOV 1 0 :1:6 
 `uc 1 WCOL 1 0 :1:7 
 ]
-"770
+"768
 [s S326 . 1 `uc 1 SSPM0 1 0 :1:0 
 `uc 1 SSPM1 1 0 :1:1 
 `uc 1 SSPM2 1 0 :1:2 
@@ -247,14 +249,14 @@ TRUE 1
 ]
 [u S331 . 1 `S320 1 . 1 0 `S326 1 . 1 0 ]
 [v _SSPCONbits SSPCONbits `VES331  1 e 1 @20 ]
-"1126
+"1124
 [v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
 [s S559 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 GO_nDONE 1 0 :1:1 
 `uc 1 CHS 1 0 :4:2 
 `uc 1 ADCS 1 0 :2:6 
 ]
-"1163
+"1161
 [s S564 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO 1 0 :1:1 
 `uc 1 CHS0 1 0 :1:2 
@@ -279,18 +281,18 @@ TRUE 1
 `uc 1 INTEDG 1 0 :1:6 
 `uc 1 nRBPU 1 0 :1:7 
 ]
-"1252
+"1250
 [s S275 . 1 `uc 1 PS0 1 0 :1:0 
 `uc 1 PS1 1 0 :1:1 
 `uc 1 PS2 1 0 :1:2 
 ]
 [u S279 . 1 `S268 1 . 1 0 `S275 1 . 1 0 ]
 [v _OPTION_REGbits OPTION_REGbits `VES279  1 e 1 @129 ]
-"1301
+"1299
 [v _TRISA TRISA `VEuc  1 e 1 @133 ]
-"1362
+"1360
 [v _TRISB TRISB `VEuc  1 e 1 @134 ]
-"1423
+"1421
 [v _TRISC TRISC `VEuc  1 e 1 @135 ]
 [s S468 . 1 `uc 1 TMR1IE 1 0 :1:0 
 `uc 1 TMR2IE 1 0 :1:1 
@@ -300,7 +302,7 @@ TRUE 1
 `uc 1 RCIE 1 0 :1:5 
 `uc 1 ADIE 1 0 :1:6 
 ]
-"1520
+"1518
 [u S476 . 1 `S468 1 . 1 0 ]
 [v _PIE1bits PIE1bits `VES476  1 e 1 @140 ]
 [s S219 . 1 `uc 1 SCS 1 0 :1:0 
@@ -309,7 +311,7 @@ TRUE 1
 `uc 1 OSTS 1 0 :1:3 
 `uc 1 IRCF 1 0 :3:4 
 ]
-"1681
+"1679
 [s S225 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 IRCF0 1 0 :1:4 
 `uc 1 IRCF1 1 0 :1:5 
@@ -326,7 +328,7 @@ TRUE 1
 `uc 1 CKE 1 0 :1:6 
 `uc 1 SMP 1 0 :1:7 
 ]
-"2024
+"2022
 [s S355 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 R 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -362,7 +364,7 @@ TRUE 1
 [v _SSPSTATbits SSPSTATbits `VES386  1 e 1 @148 ]
 [s S294 . 1 `uc 1 WPUB 1 0 :8:0 
 ]
-"2158
+"2156
 [s S296 . 1 `uc 1 WPUB0 1 0 :1:0 
 `uc 1 WPUB1 1 0 :1:1 
 `uc 1 WPUB2 1 0 :1:2 
@@ -376,7 +378,7 @@ TRUE 1
 [v _WPUBbits WPUBbits `VES305  1 e 1 @149 ]
 [s S487 . 1 `uc 1 IOCB 1 0 :8:0 
 ]
-"2227
+"2225
 [s S489 . 1 `uc 1 IOCB0 1 0 :1:0 
 `uc 1 IOCB1 1 0 :1:1 
 `uc 1 IOCB2 1 0 :1:2 
@@ -394,14 +396,14 @@ TRUE 1
 `uc 1 . 1 0 :1:6 
 `uc 1 ADFM 1 0 :1:7 
 ]
-"2773
+"2771
 [u S611 . 1 `S605 1 . 1 0 ]
 [v _ADCON1bits ADCON1bits `VES611  1 e 1 @159 ]
-"3022
+"3020
 [v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
-"3033
+"3031
 [v _EEADR EEADR `VEuc  1 e 1 @269 ]
-"3158
+"3156
 [v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
 [s S253 . 1 `uc 1 ANS0 1 0 :1:0 
 `uc 1 ANS1 1 0 :1:1 
@@ -409,68 +411,68 @@ TRUE 1
 `uc 1 ANS3 1 0 :1:3 
 `uc 1 ANS4 1 0 :1:4 
 ]
-"3172
+"3170
 [u S259 . 1 `S253 1 . 1 0 ]
 [v _ANSELbits ANSELbits `VES259  1 e 1 @392 ]
-"3201
+"3199
 [v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
-"3250
+"3248
 [v _EECON1 EECON1 `VEuc  1 e 1 @396 ]
-"3294
+"3292
 [v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
-"3440
+"3438
 [v _CARRY CARRY `VEb  1 e 0 @24 ]
-"3526
+"3524
 [v _GIE GIE `VEb  1 e 0 @95 ]
-"3682
+"3680
 [v _RBIF RBIF `VEb  1 e 0 @88 ]
-"3714
+"3712
 [v _RD RD `VEb  1 e 0 @3168 ]
-"3756
+"3754
 [v _SSPIE SSPIE `VEb  1 e 0 @1123 ]
-"3822
+"3820
 [v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
-"3824
+"3822
 [v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
-"3970
+"3968
 [v _WR WR `VEb  1 e 0 @3169 ]
-"3972
+"3970
 [v _WREN WREN `VEb  1 e 0 @3170 ]
-"120 C:\Users\gustav\Documents\Sorted\Git\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+"121 C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 [v _main main `(v  1 e 1 0 ]
 {
-"167
+"172
 } 0
-"553
+"558
 [v _init init `(v  1 e 1 0 ]
 {
-"612
+"617
 } 0
-"198
+"203
 [v _TransiverReadFIFO TransiverReadFIFO `(v  1 e 1 0 ]
 {
-"205
+"210
 [v TransiverReadFIFO@j j `i  1 a 2 67 ]
-"204
+"209
 [v TransiverReadFIFO@i i `i  1 a 2 65 ]
-"218
+"223
 } 0
-"219
+"224
 [v _TransmittedDataHandler TransmittedDataHandler `(v  1 e 1 0 ]
 {
-"310
-[v TransmittedDataHandler@slask_717 slask `[8]uc  1 a 8 53 ]
-"309
+"315
+[v TransmittedDataHandler@slask_718 slask `[8]uc  1 a 8 53 ]
+"314
 [v TransmittedDataHandler@value value `i  1 a 2 61 ]
-"300
-[v TransmittedDataHandler@slask_714 slask `[8]uc  1 a 8 45 ]
-"270
-[v TransmittedDataHandler@slask_705 slask `[8]uc  1 a 8 37 ]
-"264
+"305
+[v TransmittedDataHandler@slask_715 slask `[8]uc  1 a 8 45 ]
+"275
+[v TransmittedDataHandler@slask_706 slask `[8]uc  1 a 8 37 ]
+"269
 [v TransmittedDataHandler@slask slask `[8]uc  1 a 8 29 ]
-"317
+"322
 } 0
-"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\strstr.c
+"4 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strstr.c
 [v _strstr strstr `(*.4uc  1 e 1 0 ]
 {
 [v strstr@s1 s1 `*.4DCCuc  1 a 1 wreg ]
@@ -479,7 +481,7 @@ TRUE 1
 [v strstr@s1 s1 `*.4DCCuc  1 a 1 18 ]
 "12
 } 0
-"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\strncmp.c
+"4 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strncmp.c
 [v _strncmp strncmp `(i  1 e 2 0 ]
 {
 [v strncmp@s1 s1 `*.4DCCuc  1 a 1 wreg ]
@@ -489,7 +491,7 @@ TRUE 1
 [v strncmp@s1 s1 `*.4DCCuc  1 a 1 13 ]
 "14
 } 0
-"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\strlen.c
+"4 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strlen.c
 [v _strlen strlen `(ui  1 e 2 0 ]
 {
 [v strlen@s s `*.24DCCuc  1 a 1 wreg ]
@@ -501,7 +503,7 @@ TRUE 1
 [v strlen@s s `*.24DCCuc  1 a 1 6 ]
 "13
 } 0
-"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\strchr.c
+"4 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\strchr.c
 [v _strchr strchr `(*.4uc  1 e 1 0 ]
 {
 [v strchr@ptr ptr `*.4DCCuc  1 a 1 wreg ]
@@ -510,7 +512,7 @@ TRUE 1
 [v strchr@ptr ptr `*.4DCCuc  1 a 1 2 ]
 "11
 } 0
-"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eewrite.c
+"6 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eewrite.c
 [v _eeprom_write eeprom_write `(v  1 e 1 0 ]
 {
 [v eeprom_write@addr addr `uc  1 a 1 wreg ]
@@ -519,7 +521,7 @@ TRUE 1
 [v eeprom_write@addr addr `uc  1 a 1 2 ]
 "9
 } 0
-"5 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\atoi.c
+"5 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\atoi.c
 [v _atoi atoi `(i  1 e 2 0 ]
 {
 [v atoi@s s `*.4DCCuc  1 a 1 wreg ]
@@ -532,7 +534,7 @@ TRUE 1
 [v atoi@s s `*.4DCCuc  1 a 1 13 ]
 "24
 } 0
-"8 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\isdigit.c
+"8 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\isdigit.c
 [v _isdigit isdigit `(b  1 e 0 0 ]
 {
 [v isdigit@c c `uc  1 a 1 wreg ]
@@ -541,7 +543,7 @@ TRUE 1
 [v isdigit@c c `uc  1 a 1 1 ]
 "15
 } 0
-"15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul16.c
+"15 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
 {
 "17
@@ -551,167 +553,167 @@ TRUE 1
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
 } 0
-"1065 C:\Users\gustav\Documents\Sorted\Git\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+"1080 C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 [v _OperationMode OperationMode `(uc  1 e 1 0 ]
 {
-"1067
+"1082
 [v OperationMode@bracketStatus bracketStatus `uc  1 a 1 1 ]
-"1071
+"1086
 } 0
-"880
+"885
 [v _ReadFIFO ReadFIFO `(uc  1 e 1 0 ]
 {
-"882
+"887
 [v ReadFIFO@value value `uc  1 a 1 4 ]
-"888
+"893
 } 0
-"645
+"650
 [v _TransiverInit TransiverInit `(v  1 e 1 0 ]
 {
-"670
+"675
 } 0
-"793
+"798
 [v _Blink Blink `(v  1 e 1 0 ]
 {
-"795
+"800
 [v Blink@i i `i  1 a 2 9 ]
-"793
+"798
 [v Blink@n n `i  1 p 2 6 ]
-"803
+"808
 } 0
-"451
+"456
 [v _Mode_5 Mode_5 `(v  1 e 1 0 ]
 {
-"461
+"466
 } 0
-"436
+"441
 [v _Mode_4 Mode_4 `(v  1 e 1 0 ]
 {
-"446
+"451
 } 0
-"337
+"342
 [v _TransmittString TransmittString `(v  1 e 1 0 ]
 {
-"341
+"346
 [v TransmittString@i i `i  1 a 2 26 ]
-"337
+"342
 [v TransmittString@dataString dataString `*.26uc  1 p 2 21 ]
-"383
+"388
 } 0
-"907
+"912
 [v _WriteFIFO WriteFIFO `(v  1 e 1 0 ]
 {
 [v WriteFIFO@Data Data `uc  1 a 1 wreg ]
 [v WriteFIFO@Data Data `uc  1 a 1 wreg ]
-"909
+"914
 [v WriteFIFO@Data Data `uc  1 a 1 3 ]
-"912
+"917
 } 0
-"172
+"177
 [v _TransiverToReceive TransiverToReceive `(v  1 e 1 0 ]
 {
-"194
+"199
 } 0
-"690
+"695
 [v _FindChannel FindChannel `(uc  1 e 1 0 ]
 {
-"697
+"702
 [v FindChannel@i i `i  1 a 2 19 ]
-"692
+"697
 [v FindChannel@cnt cnt `i  1 a 2 17 ]
-"725
+"730
 } 0
-"745
+"750
 [v _SetRFMode SetRFMode `(v  1 e 1 0 ]
 {
 [v SetRFMode@mode mode `uc  1 a 1 wreg ]
-"748
+"753
 [v SetRFMode@mcparam0_read mcparam0_read `uc  1 a 1 13 ]
-"745
+"750
 [v SetRFMode@mode mode `uc  1 a 1 wreg ]
-"747
+"752
 [v SetRFMode@mode mode `uc  1 a 1 12 ]
-"773
+"778
 } 0
-"854
+"859
 [v _RegisterSet RegisterSet `(v  1 e 1 0 ]
 {
 [v RegisterSet@adress adress `uc  1 a 1 wreg ]
 [v RegisterSet@adress adress `uc  1 a 1 wreg ]
 [v RegisterSet@value value `uc  1 p 1 7 ]
-"856
-[v RegisterSet@adress adress `uc  1 a 1 10 ]
 "861
+[v RegisterSet@adress adress `uc  1 a 1 10 ]
+"866
 } 0
-"824
+"829
 [v _RegisterRead RegisterRead `(uc  1 e 1 0 ]
 {
 [v RegisterRead@adress adress `uc  1 a 1 wreg ]
-"826
+"831
 [v RegisterRead@value value `uc  1 a 1 5 ]
-"824
+"829
 [v RegisterRead@adress adress `uc  1 a 1 wreg ]
-"827
+"832
 [v RegisterRead@adress adress `uc  1 a 1 6 ]
-"833
+"838
 } 0
-"637
+"642
 [v _ReadSPI ReadSPI `(uc  1 e 1 0 ]
 {
-"641
+"646
 } 0
-"625
+"630
 [v _WriteSPI WriteSPI `(v  1 e 1 0 ]
 {
 [v WriteSPI@databyte databyte `uc  1 a 1 wreg ]
-"627
+"632
 [v WriteSPI@buffer buffer `uc  1 a 1 1 ]
-"625
+"630
 [v WriteSPI@databyte databyte `uc  1 a 1 wreg ]
-"628
-[v WriteSPI@databyte databyte `uc  1 a 1 2 ]
 "633
+[v WriteSPI@databyte databyte `uc  1 a 1 2 ]
+"638
 } 0
-"423
+"428
 [v _Mode_3 Mode_3 `(v  1 e 1 0 ]
 {
-"431
+"436
 } 0
-"412
+"417
 [v _Mode_2 Mode_2 `(v  1 e 1 0 ]
 {
-"419
+"424
 } 0
-"398
+"403
 [v _Mode_1 Mode_1 `(v  1 e 1 0 ]
 {
-"407
+"412
 } 0
-"390
+"395
 [v _Mode_0 Mode_0 `(v  1 e 1 0 ]
 {
-"393
+"398
 } 0
-"467
+"472
 [v _LightWithSensController LightWithSensController `(v  1 e 1 0 ]
 {
-"497
+"502
 } 0
-"518
+"523
 [v _timerFunction timerFunction `(uc  1 e 1 0 ]
 {
 [v timerFunction@intTimerNumber intTimerNumber `i  1 p 2 0 ]
 [v timerFunction@intSetSeconds intSetSeconds `i  1 p 2 2 ]
-"523
+"528
 } 0
-"1031
+"1046
 [v _DarknessCheck DarknessCheck `(v  1 e 1 0 ]
 {
-"1033
+"1048
 [v DarknessCheck@darknessValue darknessValue `uc  1 a 1 9 ]
-"1047
+"1062
 } 0
-"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eeread.c
+"6 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeread.c
 [v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
 {
 [v eeprom_read@addr addr `uc  1 a 1 wreg ]
@@ -720,39 +722,39 @@ TRUE 1
 [v eeprom_read@addr addr `uc  1 a 1 1 ]
 "12
 } 0
-"1004 C:\Users\gustav\Documents\Sorted\Git\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
+"1019 C:\Users\tellw\Deathstar_V1\Bustel Card v10.0 code v1.7.1/Main Card V10.0.c
 [v _AnalogValue AnalogValue `(uc  1 e 1 0 ]
 {
 [v AnalogValue@channel channel `uc  1 a 1 wreg ]
 [v AnalogValue@channel channel `uc  1 a 1 wreg ]
-"1006
+"1021
 [v AnalogValue@channel channel `uc  1 a 1 7 ]
-"1015
+"1030
 } 0
-"616
+"621
 [v _DelayDs DelayDs `(v  1 e 1 0 ]
 {
-"617
+"622
 [v DelayDs@i i `i  1 a 2 4 ]
-"616
-[v DelayDs@cnt cnt `i  1 p 2 0 ]
 "621
+[v DelayDs@cnt cnt `i  1 p 2 0 ]
+"626
 } 0
-"931
+"936
 [v _tc_int tc_int `II(v  1 e 1 0 ]
 {
-"986
+"1001
 } 0
-"1065
+"1080
 [v i1_OperationMode OperationMode `(uc  1 e 1 0 ]
 {
 [v i1OperationMode@bracketStatus OperationMode `uc  1 a 1 1 ]
-"1071
+"1086
 } 0
-"540
+"545
 [v _TimerCounter TimerCounter `(v  1 e 1 0 ]
 {
-"542
+"547
 [v TimerCounter@i i `i  1 a 2 3 ]
-"549
+"554
 } 0

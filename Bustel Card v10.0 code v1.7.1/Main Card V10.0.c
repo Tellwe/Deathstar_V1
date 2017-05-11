@@ -952,10 +952,20 @@ void interrupt tc_int(void){
 		if((intBlinkCycle == 1)&&(intBlinkCounter<intNumberOfBlinks*2)){
 			intBlinkCounter++;
 			
-			if(oLEDBlink == 0)
+			if(oLEDBlink == 0){
+				//Check if the mode is for receiver, then operate both LEDs
+				if(OperationMode() >= 6){
+					oLEDLight = 1;
+				}
 				oLEDBlink = 1;
-			else if(oLEDBlink == 1)
+			}
+			else if(oLEDBlink == 1){
+				//Check if the mode is for receiver, then operate both LEDs
+				if(OperationMode() >= 6){
+					oLEDLight = 1;
+				}
 				oLEDBlink = 0;
+			}
 		}
 		
 		else if((intBlinkCycle == 1)&&(intBlinkCounter >=intNumberOfBlinks*2)){
